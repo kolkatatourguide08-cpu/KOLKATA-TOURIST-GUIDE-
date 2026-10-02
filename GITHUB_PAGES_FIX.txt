@@ -1,0 +1,18 @@
+KOLKATA TOURIST GUIDE - GitHub Pages Fix
+
+This package keeps the original public/ folder for Node/Express local use and
+also puts a copy of the frontend at repository root so GitHub Pages can load
+index.html, css/, js/ and data/ without 404 errors.
+
+LOCAL:
+  npm install
+  npm start
+  http://localhost:3000
+
+GITHUB PAGES:
+  Publish the repository root. The root index.html is already included.
+
+IMPORTANT:
+  GitHub Pages is static hosting. Node/Express APIs, Socket.IO real-time
+  chat, admin save APIs and other backend-only features require a Node host
+  such as Render. The local/server version remains in public/ + server.js.

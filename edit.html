@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="KTG Business Edit Dashboard">
+  <title>KTG — Edit Restaurant</title>
+  <style>
+/* INTERNAL CSS: css/edit.css */
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:#eef2f7;background:radial-gradient(circle at 10% 0%,rgba(255,145,0,.08),transparent 28%),radial-gradient(circle at 90% 10%,rgba(41,98,255,.07),transparent 30%),#080e18}button,input,select,textarea{font:inherit}button{cursor:pointer}.topbar{height:70px;position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:0 26px;background:rgba(8,14,24,.88);border-bottom:1px solid #1c293b;backdrop-filter:blur(18px)}.brand{display:flex;align-items:center;gap:12px}.brand-logo{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;font-size:12px;font-weight:900;color:#15100a;background:linear-gradient(135deg,#ff8a00,#ffb21c);box-shadow:0 7px 22px rgba(255,138,0,.22)}.brand strong{display:block;font-size:14px}.brand span{display:block;margin-top:2px;font-size:10px;color:#7f8da2}.top-actions{display:flex;gap:8px}.ghost-btn,.secondary-btn{border:1px solid #223047;background:#101927;color:#cbd5e1;border-radius:9px;padding:9px 13px;text-decoration:none;font-size:12px}.ghost-btn:hover,.secondary-btn:hover{border-color:#34455f;background:#152033}.shell{width:min(1220px,calc(100% - 48px));margin:auto;padding:34px 0 70px}.page-head{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;margin-bottom:20px}.eyebrow{font-size:10px;letter-spacing:.16em;font-weight:800;color:#f39a20;text-transform:uppercase}.page-head h1{margin:6px 0 5px;font-size:28px;letter-spacing:-.03em}.page-head p,.editor-top p,.selector-top p{margin:0;color:#8190a5;font-size:12px}.session-pill{display:flex;align-items:center;gap:9px;border:1px solid #1e2b3e;background:#0d1624;border-radius:12px;padding:10px 13px}.dot{width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 12px #22c55e}.session-pill b{display:block;font-size:11px}.session-pill small{display:block;color:#738197;font-size:9px;margin-top:2px}.access-card,.selector-card,.editor,.security-note{border:1px solid #1d2b40;background:linear-gradient(180deg,rgba(16,27,43,.96),rgba(10,19,31,.96));border-radius:14px;box-shadow:0 18px 50px rgba(0,0,0,.18)}.access-card{padding:18px;margin-bottom:16px}.access-copy{display:flex;gap:10px;align-items:center;margin-bottom:13px}.access-icon{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:rgba(255,159,28,.12)}.access-copy b{font-size:12px}.access-copy small{display:block;color:#758399;font-size:10px;margin-top:2px}.access-row{display:grid;grid-template-columns:1fr auto;gap:8px}.edit-input{width:100%;min-height:40px;padding:9px 11px;border:1px solid #24344b;border-radius:8px;background:#0a1321;color:#edf2f7;outline:none;font-size:11px;transition:.2s}.edit-input:focus{border-color:#e58b17;box-shadow:0 0 0 3px rgba(229,139,23,.1)}.edit-input::placeholder{color:#536176}.edit-input[readonly]{color:#7f8da1;background:#101a29}.primary-btn,.save-btn,.danger-btn{border:0;border-radius:8px;min-height:40px;padding:9px 15px;font-size:11px;font-weight:800}.primary-btn,.save-btn{color:#16100a;background:linear-gradient(135deg,#ff8a00,#ffb31b);box-shadow:0 7px 20px rgba(255,138,0,.15)}.primary-btn:hover,.save-btn:hover{filter:brightness(1.06);transform:translateY(-1px)}.status{margin-top:10px;padding:9px 11px;border-radius:8px;font-size:10px}.status.info{color:#b9c7da;background:#101c2d;border:1px solid #203149}.status.success{color:#a7f3c1;background:rgba(34,197,94,.08);border:1px solid rgba(34,197,94,.18)}.status.error{color:#fecaca;background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.18)}.status.warning{color:#fde68a;background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.18)}[hidden]{display:none!important}.selector-card{padding:18px;margin-bottom:16px}.selector-top,.editor-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}.selector-top h2,.editor-top h2{margin:4px 0 4px;font-size:17px}.step-chip{border:1px solid #5c3b14;color:#ffb13a;background:rgba(255,159,28,.08);padding:6px 9px;border-radius:7px;font-size:10px;font-weight:900}.selector-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}.selector-grid label,.field label{font-size:10px;font-weight:700;color:#aeb9c9}.selector-grid .edit-input{margin-top:6px}.selector-actions{display:flex;justify-content:flex-end;margin-top:13px}.editor{overflow:hidden}.editor-top{padding:19px 20px;border-bottom:1px solid #1b293b}.editor-meta{text-align:right;color:#6f7d91;font-size:9px}.editor-meta span{display:block;color:#55d98a;margin-bottom:4px}.editor-meta small{font-family:ui-monospace,monospace}.editor-grid{padding:14px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.section-card{border:1px solid #1c2a3e;border-radius:11px;background:rgba(8,16,27,.55);overflow:hidden}.section-card.wide{grid-column:1/-1}.section-head{display:flex;align-items:center;gap:9px;padding:12px 13px;border-bottom:1px solid #1b293b;background:linear-gradient(180deg,#111e2e,#0d1827)}.section-icon{width:28px;height:28px;border-radius:8px;display:grid;place-items:center;background:rgba(255,159,28,.1);font-size:13px}.section-head b{font-size:11px}.section-head small{display:block;color:#65748a;font-size:8px;margin-top:2px}.section-body{padding:12px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.field.wide{grid-column:1/-1}.field .edit-input{margin-top:5px}.field textarea{min-height:82px;resize:vertical;line-height:1.45}.field-help{display:block;color:#5f6e83;font-size:8px;margin-top:4px}.readonly-field{opacity:.58}.array-field{min-height:100px}.image-list{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:6px}.image-preview{position:relative;height:105px;border:1px solid #24344b;border-radius:8px;overflow:hidden;background:#09111d}.image-preview img{width:100%;height:100%;object-fit:cover;display:block}.image-preview span{position:absolute;left:5px;bottom:5px;padding:3px 5px;border-radius:5px;background:rgba(0,0,0,.68);font-size:8px}.sticky-save{position:sticky;bottom:0;display:flex;justify-content:flex-end;gap:8px;padding:12px 14px;background:rgba(8,15,25,.94);border-top:1px solid #1d2b40;backdrop-filter:blur(14px)}.save-btn{min-width:170px}.danger-btn{background:#dc2626;color:#fff}.security-note{display:flex;gap:11px;align-items:flex-start;margin-top:16px;padding:14px 16px}.security-note>span{width:30px;height:30px;border-radius:8px;display:grid;place-items:center;background:rgba(59,130,246,.1)}.security-note b{font-size:11px}.security-note p{margin:4px 0 0;color:#69788e;font-size:9px;line-height:1.6}.modal{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:20px;background:rgba(2,6,23,.76);backdrop-filter:blur(8px)}.modal-box{width:min(390px,100%);padding:23px;border:1px solid #29384e;border-radius:15px;background:#0d1726;box-shadow:0 30px 90px rgba(0,0,0,.45)}.modal-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:11px;background:rgba(239,68,68,.1);margin-bottom:10px}.modal-box h3{margin:0;font-size:16px}.modal-box p{font-size:11px;color:#758399;line-height:1.6}.modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:16px}@media(max-width:900px){.shell{width:min(100% - 28px,1220px)}.page-head{flex-direction:column}.selector-grid,.editor-grid{grid-template-columns:1fr}.section-card.wide{grid-column:auto}.section-body{grid-template-columns:1fr}.field.wide{grid-column:auto}}@media(max-width:600px){.topbar{padding:0 14px}.brand strong{font-size:12px}.top-actions .ghost-btn:first-child{display:none}.shell{padding-top:20px}.page-head h1{font-size:23px}.session-pill{width:100%}.access-row{grid-template-columns:1fr}.selector-actions .primary-btn{width:100%}.sticky-save{flex-direction:column}.sticky-save button{width:100%}.image-list{grid-template-columns:1fr 1fr}}
+
+</style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-logo">KTG</div>
+      <div><strong>Kolkata Tourist Guide</strong><span>Business Edit Dashboard</span></div>
+    </div>
+    <div class="top-actions">
+      <a href="index.html" class="ghost-btn">← Back to Website</a>
+      <button id="lockButton" class="ghost-btn" type="button">🔒 Lock</button>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="page-head">
+      <div>
+        <div class="eyebrow">KTG MANAGEMENT</div>
+        <h1 id="pageTitle">Edit Restaurant</h1>
+        <p id="pageSubtitle">Update restaurant information and save your changes.</p>
+      </div>
+      <div class="session-pill"><span class="dot"></span><div><b>Protected session</b><small>Edit ID verification required</small></div></div>
+    </section>
+
+    <section id="accessCard" class="access-card">
+      <div class="access-copy"><span class="access-icon">🔐</span><div><b>Secure Edit Access</b><small>Verify your authorized Edit ID to open the business editor.</small></div></div>
+      <div class="access-row">
+        <input id="editId" class="edit-input" type="password" placeholder="Enter Edit ID" autocomplete="off">
+        <button id="verifyButton" class="primary-btn" type="button">✓ Verify Edit ID</button>
+      </div>
+      <div id="statusMessage" class="status info" role="status" aria-live="polite">Enter your Edit ID to continue.</div>
+    </section>
+
+    <section id="entitySection" class="selector-card" hidden>
+      <div class="selector-top">
+        <div><div class="eyebrow">BUSINESS</div><h2>Select Business</h2><p>Choose the business that you want to edit.</p></div>
+        <span class="step-chip">02</span>
+      </div>
+      <div class="selector-grid">
+        <label>Business Type<select id="entityType" class="edit-input"><option value="">Select Type</option><option value="restaurant">🍽️ Restaurant</option><option value="hotel">🏨 Hotel</option></select></label>
+        <label>Business ID<input id="entityId" class="edit-input" placeholder="REST-VICTORIA-MEMORIAL-001" autocomplete="off"></label>
+        <label>Business Name<input id="entityName" class="edit-input" placeholder="Optional business name" autocomplete="off"></label>
+      </div>
+      <div class="selector-actions"><button id="loadButton" class="primary-btn" type="button" disabled>📂 Load Business</button></div>
+    </section>
+
+    <form id="mainEditForm" class="editor" hidden>
+      <div class="editor-top">
+        <div><div class="eyebrow" id="editorType">RESTAURANT</div><h2 id="editorTitle">Edit Restaurant</h2><p id="editorSubtitle"></p></div>
+        <div class="editor-meta"><span>● Live record</span><small id="recordId"></small></div>
+      </div>
+      <div id="editorGrid" class="editor-grid"></div>
+      <div id="saveMessage" class="status" hidden></div>
+      <div class="sticky-save"><button id="resetButton" class="secondary-btn" type="button">↶ Reset</button><button id="logoutBtn" class="secondary-btn" type="button">🔒 Logout</button><button id="saveButton" class="save-btn" type="submit">💾 Save Changes</button></div>
+    </form>
+
+    <section class="security-note"><span>🛡️</span><div><b>KTG Edit System</b><p>Business IDs and protected system fields remain locked. Changes are sent to the KTG backend through the existing admin API.</p></div></section>
+  </main>
+
+  <div id="lockModal" class="modal" hidden><div class="modal-box"><div class="modal-icon">🔒</div><h3>Lock Edit System?</h3><p>Your current editing session will be locked. You will need to verify the Edit ID again.</p><div class="modal-actions"><button id="cancelLockButton" class="secondary-btn" type="button">Cancel</button><button id="confirmLockButton" class="danger-btn" type="button">Lock Dashboard</button></div></div></div>
+
+  <script>window.__KTG_SERVER_MODE__=true;</script>
+<script src="github-pages.js"></script>
+<script>
+/* INTERNAL JS: js/edit.js */
+"use strict";
+
+document.addEventListener("DOMContentLoaded", () => {
+  const state={verified:false,editId:"",entityType:"",entityId:"",entityName:"",placeId:"",entity:null};
+  const $=id=>document.getElementById(id);
+  const editIdInput=$("editId"), verifyButton=$("verifyButton"), entityTypeInput=$("entityType"), entityIdInput=$("entityId"), entityNameInput=$("entityName"), loadButton=$("loadButton"), entitySection=$("entitySection"), editor=$("mainEditForm"), editorGrid=$("editorGrid"), editorTitle=$("editorTitle"), editorSubtitle=$("editorSubtitle"), editorType=$("editorType"), recordId=$("recordId"), saveButton=$("saveButton"), resetButton=$("resetButton"), logoutBtn=$("logoutBtn"), status=$("statusMessage"), saveMessage=$("saveMessage"), lockButton=$("lockButton"), lockModal=$("lockModal"), cancelLockButton=$("cancelLockButton"), confirmLockButton=$("confirmLockButton");
+  const p=new URLSearchParams(location.search);
+  const urlType=(p.get("type")||"").trim().toLowerCase();
+  const placeId=(p.get("placeId")||"").trim();
+  const urlEntityId=(p.get("restaurantId")||p.get("hotelId")||p.get("entityId")||"").trim();
+  state.placeId=placeId;
+
+  const esc=v=>String(v??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;");
+  const clean=v=>String(v??"").trim();
+  const cap=v=>{v=clean(v);return v?v[0].toUpperCase()+v.slice(1):""};
+  const label=k=>String(k).replace(/([A-Z])/g," $1").replace(/[_-]/g," ").replace(/^\w/,c=>c.toUpperCase()).trim();
+  const typeOf=k=>{const s=String(k).toLowerCase();if(s.includes("email"))return"email";if(s.includes("phone")||s.includes("mobile")||s.includes("contact"))return"tel";if(s.includes("date"))return"date";if(s.includes("time"))return"time";if(s.includes("url")||s.includes("website")||s.includes("link")||s.includes("image")||s.includes("photo")||s.includes("maps"))return"url";return"text"};
+  function msg(text,type="info",target=status){target.textContent=text;target.className=`status ${type}`;target.hidden=false}
+  function loading(btn,on,normal,wait){if(!btn)return;btn.disabled=on;btn.textContent=on?wait:normal}
+  function entityId(e){return clean(e?.id||e?.businessId||e?.restaurantId||e?.hotelId||e?.["Restaurant ID"]||e?.["Hotel ID"])}
+  function entityName(e){return clean(e?.name||e?.restaurantName||e?.hotelName||e?.title||"Business")}
+  function protectedKey(k){const s=String(k).toLowerCase();return s==="id"||s==="businessid"||s==="hotelid"||s==="restaurantid"||s==="editid"||k==="Restaurant ID"||k==="Hotel ID"||k==="Edit ID"||s==="updatedat"}
+
+  const groups=[
+    {title:"Basic Information",icon:"▣",keys:["name","description","shortInfo","cuisine","cuisineType","price","priceUnit","averageCost","roomType"]},
+    {title:"Location Information",icon:"⌖",keys:["address","location","area","locality","city","state","pincode","postalCode","latitude","longitude","googleMaps","googleMapsLink","metroStation","distance"]},
+    {title:"Contact Information",icon:"⌕",keys:["contactNumber","phone","alternatePhone","email","website","officialWebsite","bookingLink"]},
+    {title:"Restaurant / Hotel Details",icon:"◉",keys:["hotel","rating","averageRating","reviews","openingTime","closingTime","openingHours","closingDay","closedDay","seatingCapacity","specialties","specialities","highlights"]},
+    {title:"Facilities & Services",icon:"✦",keys:["facilities","amenities","services"]},
+    {title:"Images & Photos",icon:"▧",keys:["image","images","photo","photos","photo2","photo3","photo4","photo5","photo6"]},
+    {title:"Menu / Rooms / Policies",icon:"☷",keys:["menu","rooms","policies","cancellation","payment","children","pets"]}
+  ];
+  function createControl(key,value){
+    let input;
+    if(Array.isArray(value)|| (value!==null&&typeof value==="object")){
+      input=document.createElement("textarea");input.className="edit-input array-field";input.value=JSON.stringify(value,null,2);input.dataset.type=Array.isArray(value)?"array":"object";
+    }else if(typeof value==="boolean"){
+      input=document.createElement("select");input.className="edit-input";input.innerHTML='<option value="true">True</option><option value="false">False</option>';input.value=String(value);input.dataset.type="boolean";
+    }else{
+      input=document.createElement("input");input.className="edit-input";input.type=typeof value==="number"?"number":typeOf(key);input.step=typeof value==="number"?"any":undefined;input.value=clean(value);input.dataset.type=typeof value==="number"?"number":"string";
+    }
+    input.dataset.field=key;
+    if(protectedKey(key)){input.readOnly=input.tagName!=="SELECT";input.classList.add("readonly-field");}
+    return input;
+  }
+  function fieldEl(key,value,wide=false){
+    const wrap=document.createElement("div");wrap.className=`field${wide?" wide":""}`;
+    const lab=document.createElement("label");lab.textContent=label(key);wrap.appendChild(lab);
+    wrap.appendChild(createControl(key,value));
+    return wrap;
+  }
+  function render(entity,type){
+    editorGrid.innerHTML="";
+    const used=new Set(); const keys=Object.keys(entity||{});
+    const allGroups=groups.map(g=>({...g,keys:g.keys.filter(k=>keys.includes(k))})).filter(g=>g.keys.length);
+    allGroups.forEach((g,idx)=>{
+      const card=document.createElement("section");card.className=`section-card${g.title==="Images & Photos"||g.title==="Menu / Rooms / Policies"?" wide":""}`;
+      const head=document.createElement("div");head.className="section-head";head.innerHTML=`<span class="section-icon">${g.icon}</span><div><b>${g.title}</b><small>${idx===0?"Core business information":"Manage this part of the business profile"}</small></div>`;card.appendChild(head);
+      const body=document.createElement("div");body.className="section-body";
+      g.keys.forEach(k=>{used.add(k);body.appendChild(fieldEl(k,entity[k],k==="description"||Array.isArray(entity[k])||typeof entity[k]==="object"))});card.appendChild(body);editorGrid.appendChild(card);
+    });
+    const extra=keys.filter(k=>!used.has(k)&&!protectedKey(k));
+    if(extra.length){const card=document.createElement("section");card.className="section-card wide";const head=document.createElement("div");head.className="section-head";head.innerHTML='<span class="section-icon">⋯</span><div><b>Additional Information</b><small>Other fields stored with this business</small></div>';card.appendChild(head);const body=document.createElement("div");body.className="section-body";extra.forEach(k=>body.appendChild(fieldEl(k,entity[k],Array.isArray(entity[k])||typeof entity[k]==="object")));card.appendChild(body);editorGrid.appendChild(card)}
+    if(entity.image||Array.isArray(entity.images)){const imgs=Array.isArray(entity.images)?entity.images:(entity.image?[entity.image]:[]);const urls=imgs.map(x=>typeof x==="string"?x:x?.image).filter(Boolean).slice(0,6);if(urls.length){const card=document.createElement("section");card.className="section-card wide";const head=document.createElement("div");head.className="section-head";head.innerHTML='<span class="section-icon">▧</span><div><b>Photo Preview</b><small>Preview of current image URLs</small></div>';card.appendChild(head);const body=document.createElement("div");body.className="section-body";const f=document.createElement("div");f.className="field wide";const list=document.createElement("div");list.className="image-list";urls.forEach((u,i)=>{const p=document.createElement("div");p.className="image-preview";p.innerHTML=`<img src="${esc(u)}" alt="Photo ${i+1}" onerror="this.style.opacity=.25"><span>Photo ${i+1}</span>`;list.appendChild(p)});f.appendChild(list);body.appendChild(f);card.appendChild(body);editorGrid.appendChild(card)}}
+    editor.hidden=false; saveButton.disabled=false; resetButton.disabled=false;
+    editorTitle.textContent=`Edit ${cap(type)}`;editorType.textContent=cap(type).toUpperCase();editorSubtitle.textContent=`${entityName(entity)} • ${entityId(entity)}`;recordId.textContent=entityId(entity);document.title=`KTG — Edit ${cap(type)}`;
+  }
+  function collect(){const data={};editorGrid.querySelectorAll("[data-field]").forEach(input=>{const k=input.dataset.field;if(protectedKey(k))return;const t=input.dataset.type;if(t==="array"||t==="object"){const raw=input.value.trim();if(!raw){data[k]=t==="array"?[]:{};return}try{data[k]=JSON.parse(raw)}catch(e){throw new Error(`${label(k)} contains invalid JSON.`)}}else if(t==="boolean")data[k]=input.value==="true";else if(t==="number")data[k]=input.value.trim()===""?null:Number(input.value);else data[k]=input.value});return data}
+  async function verify(){const editId=clean(editIdInput.value),type=clean(entityTypeInput.value).toLowerCase(),id=clean(entityIdInput.value),name=clean(entityNameInput.value);if(!editId)return msg("Please enter your Edit ID.","warning");if(!["hotel","restaurant"].includes(type))return msg("Please select Hotel or Restaurant first.","warning");if(!id&&!name)return msg("Business ID or Business Name is required.","warning");loading(verifyButton,true,"✓ Verify Edit ID","Verifying...");try{const r=await fetch("/api/admin/verify",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({editId,entityType:type,entityId:id,entityName:name,placeId:state.placeId})});const result=await r.json();if(!r.ok||!result.success){state.verified=false;return msg(result.message||"Invalid Edit ID.","error")}state.verified=true;state.editId=editId;state.entityType=result.entityType||type;state.entityId=result.entityId||id;state.placeId=result.placeId||state.placeId;editIdInput.readOnly=true;editIdInput.classList.add("readonly-field");verifyButton.disabled=true;verifyButton.textContent="✓ Verified";loadButton.disabled=false;entitySection.hidden=false;msg("✓ Edit ID verified successfully.","success");await load();}catch(e){console.error(e);msg("Unable to connect to the KTG server.","error")}finally{if(!state.verified)loading(verifyButton,false,"✓ Verify Edit ID","Verifying...")}}
+  async function load(){if(!state.verified)return msg("Please verify the Edit ID first.","warning");const type=clean(entityTypeInput.value).toLowerCase(),id=clean(entityIdInput.value),name=clean(entityNameInput.value);loading(loadButton,true,"📂 Load Business","Loading...");try{const r=await fetch("/api/admin/entity",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({editId:state.editId,entityType:type,entityId:id,entityName:name,placeId:state.placeId})});const result=await r.json();if(!r.ok||!result.success){editor.hidden=true;return msg(result.message||"Business could not be loaded.","error")}state.entity=result.entity||result.data;state.entityType=result.entityType||type;state.entityId=result.id||entityId(state.entity);state.entityName=entityName(state.entity);render(state.entity,state.entityType);msg(`✓ ${cap(state.entityType)} loaded successfully.`,"success");setTimeout(()=>editor.scrollIntoView({behavior:"smooth",block:"start"}),100)}catch(e){console.error(e);msg("Unable to connect to the KTG server.","error")}finally{loading(loadButton,false,"📂 Load Business","Loading...")}}
+  async function save(e){e.preventDefault();if(!state.verified||!state.entity)return msg("No verified business is currently loaded.","error");let data;try{data=collect()}catch(err){return msg(err.message,"error")}if(data.name!==undefined&&!clean(data.name))return msg("Business name cannot be empty.","warning");loading(saveButton,true,"💾 Save Changes","Saving...");try{const r=await fetch("/api/admin/entity",{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({editId:state.editId,entityType:state.entityType,entityId:state.entityId,entityName:state.entityName,placeId:state.placeId,data})});const result=await r.json();if(!r.ok||!result.success)return msg(result.message||"Could not save changes.","error");state.entity=result.entity||result.data;state.entityId=result.id||entityId(state.entity);state.entityName=entityName(state.entity);render(state.entity,state.entityType);msg("✓ Changes saved successfully.","success");msg("✓ Changes saved successfully.","success",saveMessage)}catch(err){console.error(err);msg("Unable to connect to the KTG server while saving.","error")}finally{loading(saveButton,false,"💾 Save Changes","Saving...")}}
+  function reset(){if(state.entity){render(state.entity,state.entityType);msg("↶ Current changes were reset.","info")}}
+  function lock(){state.verified=false;state.editId="";state.entity=null;editIdInput.value="";editIdInput.readOnly=false;editIdInput.classList.remove("readonly-field");verifyButton.disabled=false;verifyButton.textContent="✓ Verify Edit ID";loadButton.disabled=true;editor.hidden=true;entitySection.hidden=true;editorGrid.innerHTML="";if(urlEntityId){entityIdInput.value=urlEntityId;entityIdInput.readOnly=true}else entityIdInput.value="";msg("🔒 Dashboard locked. Verify the Edit ID again.","info");scrollTo({top:0,behavior:"smooth"})}
+
+  verifyButton.addEventListener("click",verify);loadButton.addEventListener("click",load);editor.addEventListener("submit",save);resetButton.addEventListener("click",reset);logoutBtn.addEventListener("click",()=>{if(lockModal)lockModal.hidden=false});lockButton.addEventListener("click",()=>lockModal.hidden=false);cancelLockButton.addEventListener("click",()=>lockModal.hidden=true);confirmLockButton.addEventListener("click",()=>{lockModal.hidden=true;lock()});lockModal.addEventListener("click",e=>{if(e.target===lockModal)lockModal.hidden=true});
+  editIdInput.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();verify()}});entityIdInput.addEventListener("keydown",e=>{if(e.key==="Enter"&&state.verified){e.preventDefault();load()}});
+  entityTypeInput.addEventListener("change",()=>{state.entityType=clean(entityTypeInput.value).toLowerCase();if(!urlEntityId){entityIdInput.value="";entityNameInput.value=""}editor.hidden=true});
+
+  if(urlType&&["hotel","restaurant"].includes(urlType))entityTypeInput.value=urlType;
+  if(urlEntityId){entityIdInput.value=urlEntityId;entityIdInput.readOnly=true;entityIdInput.classList.add("readonly-field")}
+  state.placeId=placeId;
+  if(urlEntityId)msg("Business selected from the URL. Enter your Edit ID to open the editor.","info");
+  window.KTGEdit={lock,load,verify};
+});
+
+</script>
+</body>
+</html>

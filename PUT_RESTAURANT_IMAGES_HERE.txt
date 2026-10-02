@@ -1,0 +1,3 @@
+Put the corresponding JPG/PNG booking image here and set its filename in places.json.
+WhatsApp Image 2026-08-17 at 2.57.57 PM.
+KOLKATA 159.jpg

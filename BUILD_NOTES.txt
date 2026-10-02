@@ -1,0 +1,28 @@
+
+KTG — Reviewed & Corrected Build
+
+This build is based on the uploaded KTG project. Existing Hotel/Restaurant data, IDs and server architecture were preserved.
+
+Corrections made:
+1. Rebuilt public/booking.html with a polished responsive booking UI.
+2. Rebuilt public/css/booking.css to match the supplied Restaurant booking screenshot style.
+3. Rebuilt public/js/booking.js:
+   - reads the selected Hotel/Restaurant directly from public/data/places.json
+   - validates the exact business ID
+   - reads that business's contactNumber from places.json
+   - creates a KTG booking ID
+   - prepares the complete booking message
+   - opens WhatsApp using wa.me with the booking details
+   - preserves the existing Hotel booking flow and hotel room loading
+4. Restaurant booking links now also carry placeId for exact place/business matching.
+5. places.json was parsed successfully as valid JSON.
+6. server.js passed node --check successfully.
+7. booking.js passed node --check successfully.
+
+Important:
+- node_modules is not included in this ZIP. After copying the project to your PC, run:
+    npm install
+  then:
+    npm start
+- If port 3000 is already in use, stop the old Node process before starting another copy.
+- WhatsApp web/app will open with a pre-filled message. The user still has to press Send; a normal browser page cannot silently send a WhatsApp message.

@@ -1,0 +1,650 @@
+css
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  background: #090d14;
+
+  color: #f5f7fb;
+
+  position: relative;
+
+  min-height: 100vh;
+}
+
+
+/* ================================
+   GLOBAL KOLKATA BACKGROUND
+   IMAGE LINK UNCHANGED
+================================ */
+
+body::before {
+  content: "";
+
+  position: fixed;
+
+  inset: 0;
+
+  z-index: -2;
+
+  background:
+    linear-gradient(
+      rgba(4, 8, 15, 0.16),
+      rgba(4, 8, 15, 0.22)
+    ),
+    url("https://images.pexels.com/photos/16569842/pexels-photo-16569842.jpeg")
+    center center / cover no-repeat;
+
+  pointer-events: none;
+}
+
+
+/* ================================
+   TOP BAR
+================================ */
+
+.topbar {
+  height: 58px;
+
+  background: rgba(17, 26, 39, 0.30);
+
+  backdrop-filter: blur(14px) saturate(115%);
+  -webkit-backdrop-filter: blur(14px) saturate(115%);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 0 5%;
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 20;
+}
+
+
+.brand {
+  font-weight: 800;
+
+  font-size: 18px;
+}
+
+
+.brand span {
+  color: #0b5bee;
+}
+
+
+.brand small {
+  display: block;
+
+  color: #e22a32;
+
+  font-size: 9px;
+
+  font-style: italic;
+
+  margin-left: 25px;
+}
+
+
+/* ================================
+   BUTTONS
+================================ */
+
+.icon-btn,
+.secondary,
+.primary {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  border-radius: 14px;
+
+  background: rgba(255, 255, 255, 0.07);
+
+  color: inherit;
+
+  padding: 11px 17px;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+
+.icon-btn:hover,
+.secondary:hover {
+  border-color: #3478f6;
+
+  background: rgba(255, 255, 255, 0.12);
+
+  transform: translateY(-1px);
+}
+
+
+.primary {
+  background: #2169ee;
+
+  border-color: #2169ee;
+
+  color: white;
+
+  font-weight: 700;
+}
+
+
+.primary:hover {
+  background: #3478f6;
+}
+
+
+/* ================================
+   HERO
+   IMAGE LINK UNCHANGED
+================================ */
+
+.hero {
+  min-height: 475px;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(3, 7, 12, 0.28),
+      rgba(3, 7, 12, 0.08)
+    ),
+    url("https://images.pexels.com/photos/16569842/pexels-photo-16569842.jpeg")
+    center / cover no-repeat;
+
+  display: flex;
+
+  align-items: center;
+
+  position: relative;
+}
+
+
+.hero-overlay {
+  max-width: 900px;
+
+  width: 90%;
+
+  margin: auto;
+}
+
+
+.eyebrow {
+  color: #2e73f2;
+
+  font-weight: 800;
+
+  letter-spacing: 2px;
+
+  font-size: 12px;
+}
+
+
+.hero h1 {
+  font-size: 64px;
+
+  line-height: 0.98;
+
+  margin: 10px 0 20px;
+}
+
+
+.hero p:not(.eyebrow) {
+  max-width: 610px;
+
+  color: #e0e5ec;
+
+  line-height: 1.5;
+}
+
+
+/* ================================
+   SEARCH
+================================ */
+
+.search {
+  background: rgba(255, 255, 255, 0.88);
+
+  border-radius: 16px;
+
+  padding: 5px;
+
+  display: flex;
+
+  max-width: 590px;
+
+  margin-top: 28px;
+
+  box-shadow:
+    0 12px 35px rgba(0, 0, 0, 0.16);
+}
+
+
+.search input {
+  flex: 1;
+
+  border: 0;
+
+  outline: 0;
+
+  padding: 16px;
+
+  background: transparent;
+
+  font-size: 15px;
+}
+
+
+.search button {
+  border: 0;
+
+  border-radius: 12px;
+
+  background: #2169ee;
+
+  color: white;
+
+  padding: 0 24px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+
+/* ================================
+   PLACES SECTION
+================================ */
+
+.places-section {
+  max-width: 1000px;
+
+  margin: 55px auto;
+
+  padding: 0 25px;
+}
+
+
+.places-section h2 {
+  font-size: 30px;
+}
+
+
+/* ================================
+   PLACE GRID
+================================ */
+
+.place-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 16px;
+}
+
+
+/* ================================
+   PLACE CARD
+   GLASSMORPHISM
+================================ */
+
+.place-tile {
+  background: rgba(255, 255, 255, 0.07);
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  border-radius: 16px;
+
+  overflow: hidden;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+
+  backdrop-filter: blur(12px) saturate(115%);
+  -webkit-backdrop-filter: blur(12px) saturate(115%);
+
+  box-shadow:
+    0 12px 35px rgba(0, 0, 0, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.10);
+}
+
+
+.place-tile:hover {
+  transform: translateY(-3px);
+
+  border-color: #3478f6;
+
+  background: rgba(255, 255, 255, 0.10);
+}
+
+
+/* ================================
+   PLACE IMAGE
+================================ */
+
+.place-img {
+  width: 100%;
+
+  height: 180px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #21324b,
+      #0d1420
+    );
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: #7d8da5;
+
+  text-align: center;
+
+  padding: 0;
+
+  overflow: hidden;
+}
+
+
+.place-img img {
+  width: 100%;
+
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+}
+
+
+/* ================================
+   PLACE TEXT
+================================ */
+
+.place-tile h3 {
+  font-size: 16px;
+
+  margin: 15px 14px 6px;
+}
+
+
+.place-tile p {
+  font-size: 13px;
+
+  color: #d0d8e4;
+
+  margin: 0 14px 16px;
+
+  line-height: 1.5;
+}
+
+
+/* ================================
+   FOOTER
+================================ */
+
+footer {
+  text-align: center;
+
+  color: #b0bac8;
+
+  padding: 45px;
+}
+
+
+/* ================================
+   MODAL
+================================ */
+
+.modal {
+  position: fixed;
+
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.48);
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 20px;
+
+  z-index: 100;
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+
+.modal.hidden {
+  display: none;
+}
+
+
+.modal-card {
+  max-width: 430px;
+
+  width: 100%;
+
+  background: rgba(255, 255, 255, 0.10);
+
+  border: 1px solid rgba(255, 255, 255, 0.20);
+
+  border-radius: 22px;
+
+  padding: 28px;
+
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.30),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
+
+  backdrop-filter: blur(18px) saturate(115%);
+  -webkit-backdrop-filter: blur(18px) saturate(115%);
+}
+
+
+.modal-card h2 {
+  margin-top: 0;
+}
+
+
+.modal-card p {
+  color: #d0d8e4;
+
+  line-height: 1.5;
+}
+
+
+.modal-card button {
+  width: 100%;
+
+  margin-top: 12px;
+}
+
+
+.full-input {
+  width: 100%;
+
+  padding: 15px;
+
+  border-radius: 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  background: rgba(255, 255, 255, 0.07);
+
+  color: white;
+
+  outline: none;
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+
+/* ================================
+   LIGHT MODE
+   IMAGE LINK UNCHANGED
+================================ */
+
+body.light {
+  background: #f5f7fb;
+
+  color: #111827;
+}
+
+
+body.light::before {
+  background:
+    linear-gradient(
+      rgba(245, 247, 251, 0.20),
+      rgba(245, 247, 251, 0.30)
+    ),
+    url("https://images.pexels.com/photos/16569842/pexels-photo-16569842.jpeg")
+    center / cover no-repeat;
+}
+
+
+body.light .topbar {
+  background: rgba(255, 255, 255, 0.28);
+
+  color: #111827;
+
+  border-bottom-color: rgba(255, 255, 255, 0.60);
+
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+
+body.light .place-tile,
+body.light .modal-card {
+  background: rgba(255, 255, 255, 0.20);
+
+  border-color: rgba(255, 255, 255, 0.55);
+
+  box-shadow:
+    0 12px 35px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.70);
+}
+
+
+body.light .secondary,
+body.light .icon-btn {
+  background: rgba(255, 255, 255, 0.25);
+
+  color: #111827;
+
+  border-color: rgba(255, 255, 255, 0.60);
+}
+
+
+body.light .place-tile p {
+  color: #4b5563;
+}
+
+
+body.light .modal-card p {
+  color: #4b5563;
+}
+
+
+body.light .full-input {
+  background: rgba(255, 255, 255, 0.28);
+
+  color: #111827;
+
+  border-color: rgba(255, 255, 255, 0.60);
+}
+
+
+/* ================================
+   TABLET
+================================ */
+
+@media (max-width: 800px) {
+
+  .place-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  .hero h1 {
+    font-size: 45px;
+  }
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 520px) {
+
+  .place-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .topbar {
+    padding: 0 18px;
+  }
+
+
+  .brand {
+    font-size: 15px;
+  }
+
+
+  .hero {
+    min-height: 500px;
+  }
+
+
+  .hero-overlay {
+    width: 88%;
+  }
+
+
+  .hero h1 {
+    font-size: 42px;
+  }
+
+
+  .search {
+    width: 100%;
+  }
+
+
+  .place-img {
+    height: 210px;
+  }
+}
+

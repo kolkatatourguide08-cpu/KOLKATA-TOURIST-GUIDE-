@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurants | Kolkata Tourist Guide</title>
+  <link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#">🌆 Kolkata Tourist Guide</a>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Places</a>
+      <a href="#">Hotels</a>
+      <a class="active" href="#">Restaurants</a>
+      <a href="#">Booking</a>
+    </nav>
+    <button id="themeBtn" class="theme-btn" type="button">🌙 Dark</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="nearby-badge">📍 Restaurants near Victoria Memorial</div>
+        <h1>Restaurants</h1>
+        <p id="restaurantCount">3 restaurants available near Victoria Memorial</p>
+      </div>
+    </section>
+
+    <div class="top-actions">
+      <button class="back-btn" type="button" onclick="goBack()">← Back</button>
+      <a class="home-btn" href="#">🏠 Home</a>
+    </div>
+
+    <section class="restaurant-section">
+      <div class="section-heading">
+        <div>
+          <h2>🍽️ Restaurants near Victoria Memorial</h2>
+          <p>Discover restaurants, cuisine, facilities, contact and other information.</p>
+        </div>
+      </div>
+
+      <div id="restaurantGrid" class="restaurant-grid"></div>
+    </section>
+  </main>
+
+  <div id="detailModal" class="modal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="close-btn" type="button" onclick="closeDetail()">×</button>
+      <div id="detailContent"></div>
+    </div>
+  </div>
+
+  <script>window.__KTG_SERVER_MODE__=true;</script>
+  <script src="github-pages.js"></script>
+  <script src="restaurant.js"></script>
+</body>
+</html>

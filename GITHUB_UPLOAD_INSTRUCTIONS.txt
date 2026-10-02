@@ -1,0 +1,57 @@
+KOLKATA TOURIST GUIDE — FIXED PACKAGE
+
+IMPORTANT FOR GITHUB PAGES
+==========================
+
+This package contains BOTH:
+1. The GitHub Pages frontend at the repository root.
+2. The Node/Express local version in public/ + server.js.
+
+GitHub Pages:
+-------------
+After extracting this ZIP, open the folder:
+
+    KOLKATA-TOURIST-GUIDE
+
+Upload the CONTENTS of this folder to the GitHub repository root.
+Do NOT upload the outer KOLKATA-TOURIST-GUIDE folder as a folder inside
+the repository.
+
+The repository root MUST directly contain:
+
+    index.html
+    css/
+    js/
+    data/
+    hotel.html
+    restaurant.html
+    booking.html
+    chat.html
+    ...
+
+Then enable GitHub Pages from the repository's main branch/root.
+
+The root index.html loads:
+    ./css/style.css
+    ./js/app.js
+
+The CSS and JS folders are included in this ZIP.
+
+LOCAL NODE VERSION
+------------------
+In the KOLKATA-TOURIST-GUIDE folder:
+
+    npm install
+    npm start
+
+Then open:
+
+    http://localhost:3000
+
+IMPORTANT BACKEND NOTE
+----------------------
+GitHub Pages is static hosting. The Node/Express APIs and Socket.IO
+features require the local Node server or another Node host. The public/
+folder is retained for the server version.
+
+Do not delete public/, server.js, package.json, or package-lock.json.

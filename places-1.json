@@ -1,0 +1,2680 @@
+[
+  {
+    "id": "victoria-memorial",
+    "name": "Victoria Memorial",
+    "shortInfo": "A magnificent white-marble memorial and museum in central Kolkata dedicated to Queen Victoria.",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Victoria_Memorial_Hall,_Kolkata.jpg",
+    "metroStation": "Rabindra Sadan Metro Station",
+    "openingHours": "Museum galleries: 10:00 AM–6:00 PM; Gardens: 6:00 AM–6:00 PM",
+    "closingDay": "Museum galleries: Mondays and designated national holidays; Gardens: open daily",
+    "ticketPrice": "Museum: Indian Nationals ₹50; SAARC Nationals ₹100; other foreign nationals ₹500. Garden: ₹30 per entry.",
+    "extraCharges": "🚌 Bus: ₹10–₹20 | 🛺 Auto: ₹30–₹60 | প্রায় 1–2 কিমি রাস্তা | 🚶 হাঁটা: প্রায় 15–25 মিনিট",
+    "attractions": "Royal Gallery, Queen's Hall Gallery, Biplobi Bharat Gallery, Entrance Hall, Durbar Hall, gardens and museum collections",
+    "contactNumber": "+91-33-2223-1890/1891; +91-33-2223-5142",
+    "officialWebsite": "https://victoriamemorial-cal.org/",
+    "googleMaps": "https://www.google.com/maps/search/?api=1&query=Victoria%20Memorial%2C%20Kolkata",
+    "latitude": 22.544889,
+    "longitude": 88.342572,
+    "metroBookingUrl": "",
+    "hotels": [
+      {
+        "hotelId": "HOTEL-KOL-001",
+        "verificationId": "KTG-HOTEL-KOL-001",
+        "businessId": "HOTEL-KOL-001",
+        "name": "Taj Bengal, Kolkata",
+        "type": "hotel",
+        "location": "34B, Belvedere Road, Alipore, Kolkata, West Bengal 700027, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 4.6,
+        "reviews": "1773",
+        "price": "₹9,800–₹30,000",
+        "priceUnit": "per night",
+        "description": [
+          "A landmark luxury hotel in Alipore known for refined rooms, multiple dining venues and full-service hospitality."
+        ],
+        "facilities": [
+          "Air Conditioning\\nWi-Fi\\nSwimming Pool\\nSpa\\nFitness Centre\\nRestaurants\\nRoom Service\\nParking\\n24-hour Front Desk"
+        ],
+        "website": "https://www.tajhotels.com/en-in/hotels/taj-bengal-kolkata",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Taj+Bengal,+Kolkata",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-001",
+        "updatedAt": "2026-09-02T12:02:11.060Z",
+        "Hotel ID": "HOTEL-KOL-001",
+        "id": "HOTEL-KOL-001",
+        "category": "Luxury Hotel",
+        "starRating": "5-star",
+        "latitude": "22.5366",
+        "longitude": "88.3308",
+        "email": "bengal.calcutta@tajhotels.com",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      },
+      {
+        "hotelId": "HOTEL-KOL-002",
+        "verificationId": "KTG-HOTEL-KOL-002",
+        "businessId": "HOTEL-KOL-002",
+        "name": "The Elgin Fairlawn, Kolkata",
+        "type": "hotel",
+        "location": "13A, Sudder Street, Esplanade, Kolkata, West Bengal 700016, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 4.2,
+        "reviews": "1090",
+        "price": "₹7,000–₹15,000",
+        "priceUnit": "per night",
+        "description": [
+          "A historic heritage hotel near Sudder Street and the Indian Museum, offering a classic Kolkata stay."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Restaurant",
+          "Garden",
+          "Room Service",
+          "Air Conditioning",
+          "24-hour Front Desk"
+        ],
+        "website": "https://www.elginhotels.com/",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=The+Elgin+Fairlawn,+Kolkata",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-002",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-002",
+        "id": "HOTEL-KOL-002",
+        "category": "Heritage Hotel",
+        "starRating": "4-star",
+        "latitude": 22.559,
+        "longitude": 88.3535,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      },
+      {
+        "hotelId": "HOTEL-KOL-003",
+        "verificationId": "KTG-HOTEL-KOL-003",
+        "businessId": "HOTEL-KOL-003",
+        "name": "The Opus - A Boutique Hotel, Bhawanipur",
+        "type": "hotel",
+        "location": "1, Shyama Prasad Mukherjee Road, opposite Purna Cinema, Bakul Bagan, Bhowanipore, Kolkata, West Bengal 700025, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 4.4,
+        "reviews": "906",
+        "price": "₹2,500–₹6,000",
+        "priceUnit": "per night",
+        "description": [
+          "A relaxed boutique hotel in Bhawanipore with breakfast, a rooftop terrace and an on-site restaurant."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Air Conditioning",
+          "Restaurant",
+          "Rooftop Terrace",
+          "Breakfast",
+          "Room Service",
+          "Parking"
+        ],
+        "website": "https://www.theopushotel.com/",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=The+Opus+-+A+Boutique+Hotel,+Bhawanipur",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-003",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-003",
+        "id": "HOTEL-KOL-003",
+        "category": "Boutique Hotel",
+        "starRating": "3-star",
+        "latitude": 22.5265,
+        "longitude": 88.3429,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      },
+      {
+        "hotelId": "HOTEL-KOL-004",
+        "verificationId": "KTG-HOTEL-KOL-004",
+        "businessId": "HOTEL-KOL-004",
+        "name": "Hotel Esteem",
+        "type": "hotel",
+        "location": "6A, Sushil Sen Road, Bhowanipore, Kolkata, West Bengal 700025, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 3.9,
+        "reviews": "1847",
+        "price": "₹2,000–₹5,000",
+        "priceUnit": "per night",
+        "description": [
+          "A centrally located hotel in Bhowanipore suited to short city stays and business or leisure travel."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Air Conditioning",
+          "Restaurant",
+          "Room Service",
+          "Parking",
+          "24-hour Front Desk"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Hotel+Esteem",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-004",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-004",
+        "id": "HOTEL-KOL-004",
+        "category": "Budget Hotel",
+        "starRating": "3-star",
+        "latitude": 22.5288,
+        "longitude": 88.3415,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      }
+    ],
+    "restaurants": [
+      {
+        "restaurantId": "REST-KOL-001",
+        "verificationId": "KTG-REST-KOL-001",
+        "businessId": "REST-KOL-001",
+        "name": "Sonargaon",
+        "type": "restaurant",
+        "hotel": "Taj Bengal, Kolkata",
+        "location": "Taj Bengal, 34B Belvedere Road, Alipore, Kolkata, West Bengal 700027, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+        "rating": 4.6,
+        "reviews": "1152",
+        "price": "₹2,000+",
+        "priceUnit": "per person",
+        "averageCost": "₹2,000+",
+        "description": [
+          "Sonargaon is a Kolkata-area dining destination focused on bengali & north indian cuisine."
+        ],
+        "cuisine": "Bengali, North Indian, Punjabi",
+        "openingTime": "10:30",
+        "closingTime": "10:30",
+        "menu": [
+          {
+            "name": "Bhetki Paturi",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹320",
+            "type": "Veg",
+            "description": "Bhetki Paturi, a popular-style bengali & north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Kosha Mangsho",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹380",
+            "type": "Veg",
+            "description": "Kosha Mangsho, a popular-style bengali & north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Dab Chingri",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹420",
+            "type": "Veg",
+            "description": "Dab Chingri, a popular-style bengali & north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Luchi & Aloo Dum",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹450",
+            "type": "Veg",
+            "description": "Luchi & Aloo Dum, a popular-style bengali & north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Murg Biryani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹520",
+            "type": "Non-Veg",
+            "description": "Murg Biryani, a popular-style bengali & north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Dal Sonargaon",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹560",
+            "type": "Veg",
+            "description": "Dal Sonargaon, a popular-style bengali & north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Paneer Tikka",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹650",
+            "type": "Veg",
+            "description": "Paneer Tikka, a popular-style bengali & north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mishti Doi",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹700",
+            "type": "Veg",
+            "description": "Mishti Doi, a popular-style bengali & north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Gondhoraj Fish",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹780",
+            "type": "Non-Veg",
+            "description": "Gondhoraj Fish, a popular-style bengali & north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Rabri",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹850",
+            "type": "Veg",
+            "description": "Rabri, a popular-style bengali & north indian dish; listed here as a representative menu item."
+          }
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Seating",
+          "Takeaway",
+          "Table Service",
+          "Digital/ Card Payment"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Sonargaon",
+        "placeId": "PLACE-KOL-REST-001",
+        "updatedAt": "2026-09-02T12:05:02.405Z",
+        "Restaurant ID": "REST-KOL-001",
+        "id": "REST-KOL-001"
+      },
+      {
+        "restaurantId": "REST-KOL-002",
+        "verificationId": "KTG-REST-KOL-002",
+        "businessId": "REST-KOL-002",
+        "name": "Tamarind Restaurant",
+        "type": "restaurant",
+        "hotel": "Independent",
+        "location": "177, Sarat Bose Road, opposite DKS, Deshapriya Park, Kolkata, West Bengal 700026, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+        "rating": 4.3,
+        "reviews": "2978",
+        "price": "₹400–₹1,200",
+        "priceUnit": "per person",
+        "averageCost": "₹400–₹1,200",
+        "description": [
+          "Tamarind Restaurant is a Kolkata-area dining destination focused on south indian, north indian & indian cuisine."
+        ],
+        "cuisine": "South Indian, North Indian, Indian",
+        "openingTime": "12:00 PM",
+        "closingTime": "10:00 PM",
+        "menu": [
+          {
+            "name": "Masala Dosa",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹320",
+            "type": "Veg",
+            "description": "Masala Dosa, a popular-style south indian, north indian & indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Idli Sambar",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹380",
+            "type": "Veg",
+            "description": "Idli Sambar, a popular-style south indian, north indian & indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Medu Vada",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹420",
+            "type": "Veg",
+            "description": "Medu Vada, a popular-style south indian, north indian & indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Paneer Butter Masala",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹450",
+            "type": "Veg",
+            "description": "Paneer Butter Masala, a popular-style south indian, north indian & indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Butter Naan",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹520",
+            "type": "Veg",
+            "description": "Butter Naan, a popular-style south indian, north indian & indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Biryani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹560",
+            "type": "Non-Veg",
+            "description": "Chicken Biryani, a popular-style south indian, north indian & indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Thali",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹650",
+            "type": "Veg",
+            "description": "Veg Thali, a popular-style south indian, north indian & indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Fish Curry",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹700",
+            "type": "Non-Veg",
+            "description": "Fish Curry, a popular-style south indian, north indian & indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Gobi Manchurian",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹780",
+            "type": "Veg",
+            "description": "Gobi Manchurian, a popular-style south indian, north indian & indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Gulab Jamun",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹850",
+            "type": "Veg",
+            "description": "Gulab Jamun, a popular-style south indian, north indian & indian dish; listed here as a representative menu item."
+          }
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Seating",
+          "Takeaway",
+          "Table Service",
+          "Digital/ Card Payment"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Tamarind+Restaurant",
+        "placeId": "PLACE-KOL-REST-002",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Restaurant ID": "REST-KOL-002",
+        "id": "REST-KOL-002"
+      },
+      {
+        "restaurantId": "REST-KOL-003",
+        "verificationId": "KTG-REST-KOL-003",
+        "businessId": "REST-KOL-003",
+        "name": "Tibetan Delight",
+        "type": "restaurant",
+        "hotel": "Independent",
+        "location": "1, Suburban Hospital Road, Sreepally, Bhowanipore, Kolkata, West Bengal 700020, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+        "rating": 4.2,
+        "reviews": "4207",
+        "price": "₹200–₹400",
+        "priceUnit": "per person",
+        "averageCost": "₹200–₹400",
+        "description": [
+          "Tibetan Delight is a Kolkata-area dining destination focused on tibetan & chinese cuisine."
+        ],
+        "cuisine": "Tibetan, Chinese",
+        "openingTime": "11:30 AM",
+        "closingTime": "9:30 PM",
+        "menu": [
+          {
+            "name": "Chicken Momo",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹320",
+            "type": "Non-Veg",
+            "description": "Chicken Momo, a popular-style tibetan & chinese dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Momo",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹380",
+            "type": "Veg",
+            "description": "Veg Momo, a popular-style tibetan & chinese dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Thukpa",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹420",
+            "type": "Veg",
+            "description": "Thukpa, a popular-style tibetan & chinese dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chowmein",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹450",
+            "type": "Veg",
+            "description": "Chowmein, a popular-style tibetan & chinese dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chilli Chicken",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹520",
+            "type": "Non-Veg",
+            "description": "Chilli Chicken, a popular-style tibetan & chinese dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Fried Rice",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹560",
+            "type": "Veg",
+            "description": "Fried Rice, a popular-style tibetan & chinese dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Shapta",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹650",
+            "type": "Veg",
+            "description": "Shapta, a popular-style tibetan & chinese dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Tingmo",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹700",
+            "type": "Veg",
+            "description": "Tingmo, a popular-style tibetan & chinese dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Spring Roll",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹780",
+            "type": "Veg",
+            "description": "Veg Spring Roll, a popular-style tibetan & chinese dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Soup",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹850",
+            "type": "Non-Veg",
+            "description": "Chicken Soup, a popular-style tibetan & chinese dish; listed here as a representative menu item."
+          }
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Seating",
+          "Takeaway",
+          "Table Service",
+          "Digital/ Card Payment"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Tibetan+Delight",
+        "placeId": "PLACE-KOL-REST-003",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Restaurant ID": "REST-KOL-003",
+        "id": "REST-KOL-003"
+      }
+    ]
+  },
+  {
+    "id": "PLACE-INDIAN-001",
+    "name": "Indian Museum",
+    "shortInfo": "India's oldest and largest multipurpose museum, established in 1814 in Kolkata.",
+    "image": "https://im.whatshot.in/img/2025/May/indian-museum-1746084586.jpg",
+    "metroStation": "Esplanade Metro Station",
+    "openingHours": "Tuesday–Sunday: 10:00 AM–6:00 PM",
+    "closingDay": "Monday and notified holidays",
+    "ticketPrice": "Adults ₹75; below 18 years ₹20; foreign nationals ₹500; organised school groups up to Class XII: Nil.Smartphone photography ₹50 + 18% GST; DSLR photography ₹100 + 18% GST.",
+    "extraCharges": "🚌 Bus: ₹10–₹20 | 🛺 Auto: ₹30–₹50 | প্রায় 1 কিমি রাস্তা | 🚶 হাঁটা: প্রায় 10–15 মিনিট",
+    "attractions": "Bharhut, Gandhara, Coin, Archaeology, Human Evolution, Rocks and Minerals, Terracotta, Painting, Egypt, Bird, Reptile & Fish, Textile and Decorative Art, Mammal, Industrial Botany and Insects galleries",
+    "contactNumber": "(033) 2252 1790",
+    "officialWebsite": "https://indianmuseumkolkata.org/",
+    "googleMaps": "https://www.google.com/maps/search/?api=1&query=Indian%20Museum%2C%20Kolkata",
+    "latitude": 22.5578858,
+    "longitude": 88.3511268,
+    "metroBookingUrl": "",
+    "dataNote": "Visitor hours, prices, hotel rates, restaurant menus and ratings can change. Verify before booking or visiting.",
+    "hotels": [
+      {
+        "hotelId": "HOTEL-KOL-005",
+        "verificationId": "KTG-HOTEL-KOL-005",
+        "businessId": "HOTEL-KOL-005",
+        "name": "The Oberoi Grand, Kolkata",
+        "type": "hotel",
+        "location": "15, Jawaharlal Nehru Road, New Market Area, Kolkata, West Bengal 700013, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 4.4,
+        "reviews": "30109",
+        "price": "₹14,000–₹35,000",
+        "priceUnit": "per night",
+        "description": [
+          "An iconic five-star heritage-style luxury hotel in central Kolkata with refined dining and extensive guest facilities."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Outdoor Pool",
+          "Spa",
+          "Fitness Centre",
+          "Restaurants",
+          "Bar",
+          "Room Service",
+          "Parking",
+          "Business Centre"
+        ],
+        "website": "https://www.oberoihotels.com/hotels-in-kolkata/",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=The+Oberoi+Grand,+Kolkata",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-005",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-005",
+        "id": "HOTEL-KOL-005",
+        "category": "Luxury Hotel",
+        "starRating": "5-star",
+        "latitude": 22.562,
+        "longitude": 88.3516,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      },
+      {
+        "hotelId": "HOTEL-KOL-006",
+        "verificationId": "KTG-HOTEL-KOL-006",
+        "businessId": "HOTEL-KOL-006",
+        "name": "The LaLiT Great Eastern Kolkata",
+        "type": "hotel",
+        "location": "1,2,3 Old Court House Street, Dalhousie Square, Kolkata, West Bengal 700001, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 4.5,
+        "reviews": "18517",
+        "price": "₹8,000–₹22,000",
+        "priceUnit": "per night",
+        "description": [
+          "A heritage luxury hotel blending historic architecture with modern hospitality in central Kolkata."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Swimming Pool",
+          "Spa",
+          "Fitness Centre",
+          "Restaurants",
+          "Bar",
+          "Room Service",
+          "Parking",
+          "Banquet Facilities"
+        ],
+        "website": "https://www.thelalit.com/the-lalit-great-eastern-kolkata/",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=The+LaLiT+Great+Eastern+Kolkata",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-006",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-006",
+        "id": "HOTEL-KOL-006",
+        "category": "Heritage Luxury Hotel",
+        "starRating": "5-star",
+        "latitude": 22.5684,
+        "longitude": 88.3517,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      },
+      {
+        "hotelId": "HOTEL-KOL-007",
+        "verificationId": "KTG-HOTEL-KOL-007",
+        "businessId": "HOTEL-KOL-007",
+        "name": "The Lindsay",
+        "type": "hotel",
+        "location": "8A & 8B, Lindsay Street, opposite New Market, Kolkata, West Bengal 700087, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 3.9,
+        "reviews": "4069",
+        "price": "₹3,000–₹8,000",
+        "priceUnit": "per night",
+        "description": [
+          "A centrally located city hotel opposite New Market with dining and convenient access to shopping and sightseeing."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Air Conditioning",
+          "Restaurant",
+          "Rooftop Restaurant",
+          "Bar",
+          "Breakfast",
+          "Room Service"
+        ],
+        "website": "https://www.thelindsay.in/",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=The+Lindsay",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-007",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-007",
+        "id": "HOTEL-KOL-007",
+        "category": "City Hotel",
+        "starRating": "3-star",
+        "latitude": 22.5612,
+        "longitude": 88.3512,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      },
+      {
+        "hotelId": "HOTEL-KOL-008",
+        "verificationId": "KTG-HOTEL-KOL-008",
+        "businessId": "HOTEL-KOL-008",
+        "name": "Peerless Hotel Kolkata",
+        "type": "hotel",
+        "location": "12, Jawaharlal Nehru Road, Esplanade, Kolkata, West Bengal 700013, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 4.6,
+        "reviews": "5515",
+        "price": "₹4,000–₹10,000",
+        "priceUnit": "per night",
+        "description": [
+          "A well-established Esplanade hotel offering restaurants, a tea lounge, fitness facilities and business services."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Restaurants",
+          "Tea Lounge",
+          "Fitness Centre",
+          "Meeting Rooms",
+          "Room Service",
+          "Parking",
+          "24-hour Front Desk"
+        ],
+        "website": "https://www.peerlesshotels.com/",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Peerless+Hotel+Kolkata",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-008",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-008",
+        "id": "HOTEL-KOL-008",
+        "category": "Business Hotel",
+        "starRating": "4-star",
+        "latitude": 22.5637,
+        "longitude": 88.35,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      }
+    ],
+    "restaurants": [
+      {
+        "restaurantId": "REST-KOL-004",
+        "verificationId": "KTG-REST-KOL-004",
+        "businessId": "REST-KOL-004",
+        "name": "Peter Cat",
+        "type": "restaurant",
+        "hotel": "Independent",
+        "location": "Stephen Court Building, 18A, Park Street, Kolkata, West Bengal 700071, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+        "rating": 4.2,
+        "reviews": "40555",
+        "price": "₹500–₹1,200",
+        "priceUnit": "per person",
+        "averageCost": "₹500–₹1,200",
+        "description": [
+          "Peter Cat is a Kolkata-area dining destination focused on north indian & kebab cuisine."
+        ],
+        "cuisine": "North Indian, Kebab, Continental",
+        "openingTime": "12:00 PM",
+        "closingTime": "11:00 PM",
+        "menu": [
+          {
+            "name": "Chelo Kebab",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹320",
+            "type": "Non-Veg",
+            "description": "Chelo Kebab, a popular-style north indian & kebab dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Kebab",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹380",
+            "type": "Non-Veg",
+            "description": "Chicken Kebab, a popular-style north indian & kebab dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Reshmi Kebab",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹420",
+            "type": "Non-Veg",
+            "description": "Reshmi Kebab, a popular-style north indian & kebab dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mutton Biryani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹450",
+            "type": "Non-Veg",
+            "description": "Mutton Biryani, a popular-style north indian & kebab dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Biryani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹520",
+            "type": "Non-Veg",
+            "description": "Chicken Biryani, a popular-style north indian & kebab dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Fish Fry",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹560",
+            "type": "Non-Veg",
+            "description": "Fish Fry, a popular-style north indian & kebab dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mutton Shashlik",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹650",
+            "type": "Non-Veg",
+            "description": "Mutton Shashlik, a popular-style north indian & kebab dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Butter Chicken",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹700",
+            "type": "Non-Veg",
+            "description": "Butter Chicken, a popular-style north indian & kebab dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Tikka",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹780",
+            "type": "Non-Veg",
+            "description": "Chicken Tikka, a popular-style north indian & kebab dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Caramel Custard",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹850",
+            "type": "Veg",
+            "description": "Caramel Custard, a popular-style north indian & kebab dish; listed here as a representative menu item."
+          }
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Seating",
+          "Takeaway",
+          "Table Service",
+          "Digital/ Card Payment"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Peter+Cat",
+        "placeId": "PLACE-KOL-REST-004",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Restaurant ID": "REST-KOL-004",
+        "id": "REST-KOL-004"
+      },
+      {
+        "restaurantId": "REST-KOL-005",
+        "verificationId": "KTG-REST-KOL-005",
+        "businessId": "REST-KOL-005",
+        "name": "Mocambo Restaurant and Bar",
+        "type": "restaurant",
+        "hotel": "Independent",
+        "location": "25B, Free School Street, Taltala, Kolkata, West Bengal 700016, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+        "rating": 4.3,
+        "reviews": "17216",
+        "price": "₹600–₹1,800",
+        "priceUnit": "per person",
+        "averageCost": "₹600–₹1,800",
+        "description": [
+          "Mocambo Restaurant and Bar is a Kolkata-area dining destination focused on continental cuisine."
+        ],
+        "cuisine": "Continental, European",
+        "openingTime": "11:15 AM",
+        "closingTime": "11:15 PM",
+        "menu": [
+          {
+            "name": "Chicken Stroganoff",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹320",
+            "type": "Non-Veg",
+            "description": "Chicken Stroganoff, a popular-style continental dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Devilled Crab",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹380",
+            "type": "Non-Veg",
+            "description": "Devilled Crab, a popular-style continental dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Prawn Cocktail",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹420",
+            "type": "Non-Veg",
+            "description": "Prawn Cocktail, a popular-style continental dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Ala Kiev",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹450",
+            "type": "Non-Veg",
+            "description": "Chicken Ala Kiev, a popular-style continental dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Fish Florentine",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹520",
+            "type": "Non-Veg",
+            "description": "Fish Florentine, a popular-style continental dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Grilled Chicken",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹560",
+            "type": "Non-Veg",
+            "description": "Grilled Chicken, a popular-style continental dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Fish & Chips",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹650",
+            "type": "Non-Veg",
+            "description": "Fish & Chips, a popular-style continental dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Prawn Malai Curry",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹700",
+            "type": "Non-Veg",
+            "description": "Prawn Malai Curry, a popular-style continental dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Sizzler",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹780",
+            "type": "Non-Veg",
+            "description": "Chicken Sizzler, a popular-style continental dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Caramel Custard",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹850",
+            "type": "Veg",
+            "description": "Caramel Custard, a popular-style continental dish; listed here as a representative menu item."
+          }
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Seating",
+          "Takeaway",
+          "Table Service",
+          "Digital/ Card Payment"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Mocambo+Restaurant+and+Bar",
+        "placeId": "PLACE-KOL-REST-005",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Restaurant ID": "REST-KOL-005",
+        "id": "REST-KOL-005"
+      },
+      {
+        "restaurantId": "REST-KOL-006",
+        "verificationId": "KTG-REST-KOL-006",
+        "businessId": "REST-KOL-006",
+        "name": "Zaranj",
+        "type": "restaurant",
+        "hotel": "Independent",
+        "location": "26, Jawaharlal Nehru Road, near Indian Museum, Kolkata, West Bengal 700016, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+        "rating": 4.1,
+        "reviews": "1477",
+        "price": "₹800–₹2,000",
+        "priceUnit": "per person",
+        "averageCost": "₹800–₹2,000",
+        "description": [
+          "Zaranj is a Kolkata-area dining destination focused on north indian cuisine."
+        ],
+        "cuisine": "North Indian, Mughlai",
+        "openingTime": "12:30 PM",
+        "closingTime": "11:30 PM",
+        "menu": [
+          {
+            "name": "Mutton Rogan Josh",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹320",
+            "type": "Non-Veg",
+            "description": "Mutton Rogan Josh, a popular-style north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Tikka",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹380",
+            "type": "Non-Veg",
+            "description": "Chicken Tikka, a popular-style north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Butter Chicken",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹420",
+            "type": "Non-Veg",
+            "description": "Butter Chicken, a popular-style north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Dal Makhani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹450",
+            "type": "Veg",
+            "description": "Dal Makhani, a popular-style north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Paneer Tikka",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹520",
+            "type": "Veg",
+            "description": "Paneer Tikka, a popular-style north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Tandoori Chicken",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹560",
+            "type": "Non-Veg",
+            "description": "Tandoori Chicken, a popular-style north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mutton Biryani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹650",
+            "type": "Non-Veg",
+            "description": "Mutton Biryani, a popular-style north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Garlic Naan",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹700",
+            "type": "Veg",
+            "description": "Garlic Naan, a popular-style north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Fish Tikka",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹780",
+            "type": "Non-Veg",
+            "description": "Fish Tikka, a popular-style north indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Gulab Jamun",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹850",
+            "type": "Veg",
+            "description": "Gulab Jamun, a popular-style north indian dish; listed here as a representative menu item."
+          }
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Seating",
+          "Takeaway",
+          "Table Service",
+          "Digital/ Card Payment"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Zaranj",
+        "placeId": "PLACE-KOL-REST-006",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Restaurant ID": "REST-KOL-006",
+        "id": "REST-KOL-006"
+      }
+    ]
+  },
+  {
+    "id": "howrah-bridge",
+    "name": "Howrah Bridge",
+    "shortInfo": "Iconic cantilever bridge over the Hooghly River connecting Kolkata and Howrah.",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rabindra_Setu.jpg",
+    "metroStation": "Howrah Metro Station",
+    "openingHours": "Open for normal public road and pedestrian traffic; traffic restrictions may apply.",
+    "closingDay": "None for normal public crossing",
+    "ticketPrice": "No separate pedestrian entry ticket.",
+    "extraCharges": "🚌 Bus: ₹10–₹20 | 🛺 Auto: ₹30–₹60 | প্রায় 1 কিমি রাস্তা | 🚶 হাঁটা: প্রায় 10–15 মিনিট",
+    "attractions": "Hooghly River views, bridge architecture, Kolkata skyline, Howrah Station and nearby flower market",
+    "contactNumber": "",
+    "officialWebsite": "https://www.wbtourism.gov.in/",
+    "googleMaps": "https://www.google.com/maps/search/?api=1&query=Howrah%20Bridge%2C%20Kolkata",
+    "latitude": 22.58509,
+    "longitude": 88.3468,
+    "metroBookingUrl": "",
+    "hotels": [
+      {
+        "hotelId": "HOTEL-KOL-009",
+        "verificationId": "KTG-HOTEL-KOL-009",
+        "businessId": "HOTEL-KOL-009",
+        "name": "The Ashoka Hotel",
+        "type": "hotel",
+        "location": "113, AJC Bose Road, Vidyapati Setu, Lebutala, Bowbazar, Kolkata, West Bengal 700014, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 3.6,
+        "reviews": "1065",
+        "price": "₹2,000–₹5,000",
+        "priceUnit": "per night",
+        "description": [
+          "A centrally placed Kolkata hotel with basic guest facilities, restaurant and bar service."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Air Conditioning",
+          "Restaurant",
+          "Bar",
+          "Room Service",
+          "24-hour Front Desk"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=The+Ashoka+Hotel",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-009",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-009",
+        "id": "HOTEL-KOL-009",
+        "category": "City Hotel",
+        "starRating": "3-star",
+        "latitude": 22.5535,
+        "longitude": 88.3574,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      },
+      {
+        "hotelId": "HOTEL-KOL-010",
+        "verificationId": "KTG-HOTEL-KOL-010",
+        "businessId": "HOTEL-KOL-010",
+        "name": "FabHotel De Sivalika - Hotel in Howrah, Kolkata",
+        "type": "hotel",
+        "location": "317, GT Road, Belur Math, Belur, Howrah, West Bengal 711202, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 3.6,
+        "reviews": "687",
+        "price": "₹1,500–₹3,500",
+        "priceUnit": "per night",
+        "description": [
+          "A straightforward budget hotel near Belur Math railway station and the Belur Math temple."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Air Conditioning",
+          "Breakfast",
+          "Parking",
+          "Room Service",
+          "24-hour Front Desk"
+        ],
+        "website": "https://www.fabhotels.com/",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=FabHotel+De+Sivalika+-+Hotel+in+Howrah,+Kolkata",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-010",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-010",
+        "id": "HOTEL-KOL-010",
+        "category": "Budget Hotel",
+        "starRating": "3-star",
+        "latitude": 22.6328,
+        "longitude": 88.3517,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      },
+      {
+        "hotelId": "HOTEL-KOL-011",
+        "verificationId": "KTG-HOTEL-KOL-011",
+        "businessId": "HOTEL-KOL-011",
+        "name": "Dada Boudi Hotel",
+        "type": "hotel",
+        "location": "304, Green Park, Haltu, Kolkata, West Bengal 700078, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 4.5,
+        "reviews": "2",
+        "price": "₹1,500–₹4,000",
+        "priceUnit": "per night",
+        "description": [
+          "A small accommodation listing in the Haltu area. Publicly available review volume is very limited."
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Wi-Fi",
+          "Parking",
+          "Front Desk"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Hotel+Saptarshi",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-011",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-011",
+        "id": "HOTEL-KOL-011",
+        "category": "Budget Stay",
+        "starRating": "Unverified",
+        "latitude": 22.5126,
+        "longitude": 88.3994,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      },
+      {
+        "hotelId": "HOTEL-KOL-012",
+        "verificationId": "KTG-HOTEL-KOL-012",
+        "businessId": "HOTEL-KOL-012",
+        "name": "Hotel Cecil",
+        "type": "hotel",
+        "location": "52/1/1, College Street, Lalbazar, Bowbazar, Kolkata, West Bengal 700073, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 4.0,
+        "reviews": "382",
+        "price": "₹2,000–₹5,000",
+        "priceUnit": "per night",
+        "description": [
+          "A centrally located three-star hotel near College Street and the medical-college district."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Air Conditioning",
+          "Breakfast",
+          "24-hour Front Desk",
+          "Room Service",
+          "Concierge"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Hotel+Cecil",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-012",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-012",
+        "id": "HOTEL-KOL-012",
+        "category": "City Hotel",
+        "starRating": "3-star",
+        "latitude": 22.5747,
+        "longitude": 88.3595,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      }
+    ],
+    "restaurants": [
+      {
+        "restaurantId": "REST-KOL-007",
+        "verificationId": "KTG-REST-KOL-007",
+        "businessId": "REST-KOL-007",
+        "name": "BridgeView Rooftop Lounge",
+        "type": "restaurant",
+        "hotel": "Independent",
+        "location": "11/12, Burnt Salt Gola Lane, near Howrah AC Market, Howrah, West Bengal 711101, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+        "rating": 4.7,
+        "reviews": "123",
+        "price": "₹200–₹1,000",
+        "priceUnit": "per person",
+        "averageCost": "₹200–₹1,000",
+        "description": [
+          "BridgeView Rooftop Lounge is a Kolkata-area dining destination focused on indian & vegetarian cuisine."
+        ],
+        "cuisine": "Indian, Chinese, Vegetarian",
+        "openingTime": "12:30 PM",
+        "closingTime": "11:00 PM",
+        "menu": [
+          {
+            "name": "Paneer Tikka",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹320",
+            "type": "Veg",
+            "description": "Paneer Tikka, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Hakka Noodles",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹380",
+            "type": "Veg",
+            "description": "Veg Hakka Noodles, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Fried Rice",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹420",
+            "type": "Veg",
+            "description": "Veg Fried Rice, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chilli Paneer",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹450",
+            "type": "Veg",
+            "description": "Chilli Paneer, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Masala Dosa",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹520",
+            "type": "Veg",
+            "description": "Masala Dosa, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Manchurian",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹560",
+            "type": "Veg",
+            "description": "Veg Manchurian, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "French Fries",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹650",
+            "type": "Veg",
+            "description": "French Fries, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Sandwich",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹700",
+            "type": "Veg",
+            "description": "Veg Sandwich, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mushroom Chilli",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹780",
+            "type": "Veg",
+            "description": "Mushroom Chilli, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Brownie",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹850",
+            "type": "Veg",
+            "description": "Brownie, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          }
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Seating",
+          "Takeaway",
+          "Table Service",
+          "Digital/ Card Payment"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=BridgeView+Rooftop+Lounge",
+        "placeId": "PLACE-KOL-REST-007",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Restaurant ID": "REST-KOL-007",
+        "id": "REST-KOL-007"
+      },
+      {
+        "restaurantId": "REST-KOL-008",
+        "verificationId": "KTG-REST-KOL-008",
+        "businessId": "REST-KOL-008",
+        "name": "One by One",
+        "type": "restaurant",
+        "hotel": "Independent",
+        "location": "1/1, Khirode Chandra Ghosh Road, Babudanga, Howrah, West Bengal 711101, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+        "rating": 4.3,
+        "reviews": "747",
+        "price": "₹200–₹600",
+        "priceUnit": "per person",
+        "averageCost": "₹200–₹600",
+        "description": [
+          "One by One is a Kolkata-area dining destination focused on indian & non-vegetarian cuisine."
+        ],
+        "cuisine": "Indian, Mughlai",
+        "openingTime": "12:30 PM",
+        "closingTime": "11:00 PM",
+        "menu": [
+          {
+            "name": "Chicken Biryani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹320",
+            "type": "Non-Veg",
+            "description": "Chicken Biryani, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mutton Biryani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹380",
+            "type": "Non-Veg",
+            "description": "Mutton Biryani, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Curry",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹420",
+            "type": "Non-Veg",
+            "description": "Chicken Curry, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mutton Curry",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹450",
+            "type": "Non-Veg",
+            "description": "Mutton Curry, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Kasha",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹520",
+            "type": "Non-Veg",
+            "description": "Chicken Kasha, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Egg Roll",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹560",
+            "type": "Veg",
+            "description": "Egg Roll, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Roll",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹650",
+            "type": "Non-Veg",
+            "description": "Chicken Roll, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Fish Fry",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹700",
+            "type": "Non-Veg",
+            "description": "Fish Fry, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Chaap",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹780",
+            "type": "Non-Veg",
+            "description": "Chicken Chaap, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mutton Rezala",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹850",
+            "type": "Non-Veg",
+            "description": "Mutton Rezala, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          }
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Seating",
+          "Takeaway",
+          "Table Service",
+          "Digital/ Card Payment"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=One+by+One",
+        "placeId": "PLACE-KOL-REST-008",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Restaurant ID": "REST-KOL-008",
+        "id": "REST-KOL-008"
+      },
+      {
+        "restaurantId": "REST-KOL-009",
+        "verificationId": "KTG-REST-KOL-009",
+        "businessId": "REST-KOL-009",
+        "name": "Kailash Parbat- Pure Veg",
+        "type": "restaurant",
+        "hotel": "Independent",
+        "location": "Ground Floor, CD-83, CD Block, Sector 1, Bidhannagar, Kolkata, West Bengal 700064, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+        "rating": 4.7,
+        "reviews": "2733",
+        "price": "₹400–₹1,400",
+        "priceUnit": "per person",
+        "averageCost": "₹400–₹1,400",
+        "description": [
+          "Kailash Parbat- Pure Veg is a Kolkata-area dining destination focused on pure vegetarian, north indian & sindhi cuisine."
+        ],
+        "cuisine": "Vegetarian, North Indian, Sindhi",
+        "openingTime": "12:00 PM",
+        "closingTime": "11:00 PM",
+        "menu": [
+          {
+            "name": "Chole Bhature",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹320",
+            "type": "Veg",
+            "description": "Chole Bhature, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Pav Bhaji",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹380",
+            "type": "Veg",
+            "description": "Pav Bhaji, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Dahi Puri",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹420",
+            "type": "Veg",
+            "description": "Dahi Puri, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Pani Puri",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹450",
+            "type": "Veg",
+            "description": "Pani Puri, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Paneer Tikka",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹520",
+            "type": "Veg",
+            "description": "Paneer Tikka, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Dal Makhani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹560",
+            "type": "Veg",
+            "description": "Dal Makhani, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Biryani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹650",
+            "type": "Non-Veg",
+            "description": "Veg Biryani, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Raj Kachori",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹700",
+            "type": "Veg",
+            "description": "Raj Kachori, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Masala Dosa",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹780",
+            "type": "Veg",
+            "description": "Masala Dosa, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Gulab Jamun",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹850",
+            "type": "Veg",
+            "description": "Gulab Jamun, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          }
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Seating",
+          "Takeaway",
+          "Table Service",
+          "Digital/ Card Payment"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Kailash+Parbat-+Pure+Veg",
+        "placeId": "PLACE-KOL-REST-009",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Restaurant ID": "REST-KOL-009",
+        "id": "REST-KOL-009"
+      }
+    ]
+  },
+  {
+    "id": "belur-math",
+    "name": "Belur Math",
+    "shortInfo": "Headquarters of Ramakrishna Math and Ramakrishna Mission on the Hooghly River.",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belur_Math.jpg",
+    "metroStation": "Howrah Maidan Metro Station / Belur railway station",
+    "openingHours": "Morning: 6:30 AM–11:30 AM; Afternoon: 4:00 PM–9:00 PM",
+    "closingDay": "No regular weekly closing day stated; timings may change on festivals.",
+    "ticketPrice": "General campus/temple visit: no standard admission fee. Museum/other activities may have separate arrangements.",
+    "extraCharges": "🚌 Bus: ₹10–₹20 | 🛺 Auto: ₹30–₹60 | প্রায় 1 কিমি রাস্তা | 🚶 হাঁটা: প্রায় 10–15 মিনিট",
+    "attractions": "Sri Ramakrishna Temple, Swami Vivekananda Temple, Sri Sarada Devi Temple, museum, Hooghly riverfront and historic campus",
+    "contactNumber": "+91-33-2654-5700 / 5701 / 5702 / 5703 / 5391 / 8494 / 9581 / 9681",
+    "officialWebsite": "https://belurmath.org/",
+    "googleMaps": "https://www.google.com/maps/search/?api=1&query=Belur%20Math%2C%20Howrah",
+    "latitude": 22.6324,
+    "longitude": 88.35641,
+    "metroBookingUrl": "",
+    "hotels": [
+      {
+        "hotelId": "HOTEL-KOL-009",
+        "verificationId": "KTG-HOTEL-KOL-009",
+        "businessId": "HOTEL-KOL-009",
+        "name": "The Ashoka Hotel",
+        "type": "hotel",
+        "location": "113, AJC Bose Road, Vidyapati Setu, Lebutala, Bowbazar, Kolkata, West Bengal 700014, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 3.6,
+        "reviews": "1065",
+        "price": "₹2,000–₹5,000",
+        "priceUnit": "per night",
+        "description": [
+          "A centrally placed Kolkata hotel with basic guest facilities, restaurant and bar service."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Air Conditioning",
+          "Restaurant",
+          "Bar",
+          "Room Service",
+          "24-hour Front Desk"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=The+Ashoka+Hotel",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-009",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-009",
+        "id": "HOTEL-KOL-009",
+        "category": "City Hotel",
+        "starRating": "3-star",
+        "latitude": 22.5535,
+        "longitude": 88.3574,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      },
+      {
+        "hotelId": "HOTEL-KOL-010",
+        "verificationId": "KTG-HOTEL-KOL-010",
+        "businessId": "HOTEL-KOL-010",
+        "name": "FabHotel De Sivalika - Hotel in Howrah, Kolkata",
+        "type": "hotel",
+        "location": "317, GT Road, Belur Math, Belur, Howrah, West Bengal 711202, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 3.6,
+        "reviews": "687",
+        "price": "₹1,500–₹3,500",
+        "priceUnit": "per night",
+        "description": [
+          "A straightforward budget hotel near Belur Math railway station and the Belur Math temple."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Air Conditioning",
+          "Breakfast",
+          "Parking",
+          "Room Service",
+          "24-hour Front Desk"
+        ],
+        "website": "https://www.fabhotels.com/",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=FabHotel+De+Sivalika+-+Hotel+in+Howrah,+Kolkata",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-010",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-010",
+        "id": "HOTEL-KOL-010",
+        "category": "Budget Hotel",
+        "starRating": "3-star",
+        "latitude": 22.6328,
+        "longitude": 88.3517,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      },
+      {
+        "hotelId": "HOTEL-KOL-011",
+        "verificationId": "KTG-HOTEL-KOL-011",
+        "businessId": "HOTEL-KOL-011",
+        "name": "Dada Boudi Hotel",
+        "type": "hotel",
+        "location": "304, Green Park, Haltu, Kolkata, West Bengal 700078, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 4.5,
+        "reviews": "2",
+        "price": "₹1,500–₹4,000",
+        "priceUnit": "per night",
+        "description": [
+          "A small accommodation listing in the Haltu area. Publicly available review volume is very limited."
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Wi-Fi",
+          "Parking",
+          "Front Desk"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Hotel+Saptarshi",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-011",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-011",
+        "id": "HOTEL-KOL-011",
+        "category": "Budget Stay",
+        "starRating": "Unverified",
+        "latitude": 22.5126,
+        "longitude": 88.3994,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      },
+      {
+        "hotelId": "HOTEL-KOL-012",
+        "verificationId": "KTG-HOTEL-KOL-012",
+        "businessId": "HOTEL-KOL-012",
+        "name": "Hotel Cecil",
+        "type": "hotel",
+        "location": "52/1/1, College Street, Lalbazar, Bowbazar, Kolkata, West Bengal 700073, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 4.0,
+        "reviews": "382",
+        "price": "₹2,000–₹5,000",
+        "priceUnit": "per night",
+        "description": [
+          "A centrally located three-star hotel near College Street and the medical-college district."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Air Conditioning",
+          "Breakfast",
+          "24-hour Front Desk",
+          "Room Service",
+          "Concierge"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Hotel+Cecil",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-012",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-012",
+        "id": "HOTEL-KOL-012",
+        "category": "City Hotel",
+        "starRating": "3-star",
+        "latitude": 22.5747,
+        "longitude": 88.3595,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      }
+    ],
+    "restaurants": [
+      {
+        "restaurantId": "REST-KOL-007",
+        "verificationId": "KTG-REST-KOL-007",
+        "businessId": "REST-KOL-007",
+        "name": "BridgeView Rooftop Lounge",
+        "type": "restaurant",
+        "hotel": "Independent",
+        "location": "11/12, Burnt Salt Gola Lane, near Howrah AC Market, Howrah, West Bengal 711101, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+        "rating": 4.7,
+        "reviews": "123",
+        "price": "₹200–₹1,000",
+        "priceUnit": "per person",
+        "averageCost": "₹200–₹1,000",
+        "description": [
+          "BridgeView Rooftop Lounge is a Kolkata-area dining destination focused on indian & vegetarian cuisine."
+        ],
+        "cuisine": "Indian, Chinese, Vegetarian",
+        "openingTime": "12:30 PM",
+        "closingTime": "11:00 PM",
+        "menu": [
+          {
+            "name": "Paneer Tikka",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹320",
+            "type": "Veg",
+            "description": "Paneer Tikka, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Hakka Noodles",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹380",
+            "type": "Veg",
+            "description": "Veg Hakka Noodles, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Fried Rice",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹420",
+            "type": "Veg",
+            "description": "Veg Fried Rice, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chilli Paneer",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹450",
+            "type": "Veg",
+            "description": "Chilli Paneer, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Masala Dosa",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹520",
+            "type": "Veg",
+            "description": "Masala Dosa, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Manchurian",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹560",
+            "type": "Veg",
+            "description": "Veg Manchurian, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "French Fries",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹650",
+            "type": "Veg",
+            "description": "French Fries, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Sandwich",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹700",
+            "type": "Veg",
+            "description": "Veg Sandwich, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mushroom Chilli",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹780",
+            "type": "Veg",
+            "description": "Mushroom Chilli, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Brownie",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹850",
+            "type": "Veg",
+            "description": "Brownie, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          }
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Seating",
+          "Takeaway",
+          "Table Service",
+          "Digital/ Card Payment"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=BridgeView+Rooftop+Lounge",
+        "placeId": "PLACE-KOL-REST-007",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Restaurant ID": "REST-KOL-007",
+        "id": "REST-KOL-007"
+      },
+      {
+        "restaurantId": "REST-KOL-008",
+        "verificationId": "KTG-REST-KOL-008",
+        "businessId": "REST-KOL-008",
+        "name": "One by One",
+        "type": "restaurant",
+        "hotel": "Independent",
+        "location": "1/1, Khirode Chandra Ghosh Road, Babudanga, Howrah, West Bengal 711101, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+        "rating": 4.3,
+        "reviews": "747",
+        "price": "₹200–₹600",
+        "priceUnit": "per person",
+        "averageCost": "₹200–₹600",
+        "description": [
+          "One by One is a Kolkata-area dining destination focused on indian & non-vegetarian cuisine."
+        ],
+        "cuisine": "Indian, Mughlai",
+        "openingTime": "12:30 PM",
+        "closingTime": "11:00 PM",
+        "menu": [
+          {
+            "name": "Chicken Biryani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹320",
+            "type": "Non-Veg",
+            "description": "Chicken Biryani, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mutton Biryani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹380",
+            "type": "Non-Veg",
+            "description": "Mutton Biryani, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Curry",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹420",
+            "type": "Non-Veg",
+            "description": "Chicken Curry, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mutton Curry",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹450",
+            "type": "Non-Veg",
+            "description": "Mutton Curry, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Kasha",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹520",
+            "type": "Non-Veg",
+            "description": "Chicken Kasha, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Egg Roll",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹560",
+            "type": "Veg",
+            "description": "Egg Roll, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Roll",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹650",
+            "type": "Non-Veg",
+            "description": "Chicken Roll, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Fish Fry",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹700",
+            "type": "Non-Veg",
+            "description": "Fish Fry, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Chaap",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹780",
+            "type": "Non-Veg",
+            "description": "Chicken Chaap, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mutton Rezala",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹850",
+            "type": "Non-Veg",
+            "description": "Mutton Rezala, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          }
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Seating",
+          "Takeaway",
+          "Table Service",
+          "Digital/ Card Payment"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=One+by+One",
+        "placeId": "PLACE-KOL-REST-008",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Restaurant ID": "REST-KOL-008",
+        "id": "REST-KOL-008"
+      },
+      {
+        "restaurantId": "REST-KOL-009",
+        "verificationId": "KTG-REST-KOL-009",
+        "businessId": "REST-KOL-009",
+        "name": "Kailash Parbat- Pure Veg",
+        "type": "restaurant",
+        "hotel": "Independent",
+        "location": "Ground Floor, CD-83, CD Block, Sector 1, Bidhannagar, Kolkata, West Bengal 700064, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+        "rating": 4.7,
+        "reviews": "2733",
+        "price": "₹400–₹1,400",
+        "priceUnit": "per person",
+        "averageCost": "₹400–₹1,400",
+        "description": [
+          "Kailash Parbat- Pure Veg is a Kolkata-area dining destination focused on pure vegetarian, north indian & sindhi cuisine."
+        ],
+        "cuisine": "Vegetarian, North Indian, Sindhi",
+        "openingTime": "12:00 PM",
+        "closingTime": "11:00 PM",
+        "menu": [
+          {
+            "name": "Chole Bhature",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹320",
+            "type": "Veg",
+            "description": "Chole Bhature, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Pav Bhaji",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹380",
+            "type": "Veg",
+            "description": "Pav Bhaji, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Dahi Puri",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹420",
+            "type": "Veg",
+            "description": "Dahi Puri, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Pani Puri",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹450",
+            "type": "Veg",
+            "description": "Pani Puri, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Paneer Tikka",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹520",
+            "type": "Veg",
+            "description": "Paneer Tikka, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Dal Makhani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹560",
+            "type": "Veg",
+            "description": "Dal Makhani, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Biryani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹650",
+            "type": "Non-Veg",
+            "description": "Veg Biryani, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Raj Kachori",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹700",
+            "type": "Veg",
+            "description": "Raj Kachori, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Masala Dosa",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹780",
+            "type": "Veg",
+            "description": "Masala Dosa, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Gulab Jamun",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹850",
+            "type": "Veg",
+            "description": "Gulab Jamun, a popular-style pure vegetarian, north indian & sindhi dish; listed here as a representative menu item."
+          }
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Seating",
+          "Takeaway",
+          "Table Service",
+          "Digital/ Card Payment"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Kailash+Parbat-+Pure+Veg",
+        "placeId": "PLACE-KOL-REST-009",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Restaurant ID": "REST-KOL-009",
+        "id": "REST-KOL-009"
+      }
+    ]
+  },
+  {
+    "id": "dakshineswar-kali-temple",
+    "name": "Dakshineswar Kali Temple",
+    "shortInfo": "Historic 1855 temple dedicated to Bhavatarini Kali on the eastern bank of the Hooghly.",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakshineswar_Kali_Temple,_Kolkata.jpg",
+    "metroStation": "Dakshineswar Metro Station",
+    "openingHours": "Morning: 6:30 AM–12:30 PM; Evening: 3:30 PM–7:30 PM",
+    "closingDay": "No regular weekly closing day; Trustee Board may change timings.",
+    "ticketPrice": "No general darshan entry ticket; puja, offerings and special services may have separate charges.But Shoes Counter Price - ₹10–₹13, Mobile Phone - ₹10-₹15",
+    "extraCharges": "🚌 Bus: ₹10–₹20 | 🛺 Auto: ₹20–₹40 | প্রায় 0.5–1 কিমি রাস্তা | 🚶 হাঁটা: প্রায় 5–10 মিনিট",
+    "attractions": "Bhavatarini Kali Temple, twelve Shiva temples, Radha-Kanta Temple, Chandni Ghat, Hooghly riverfront and skywalk",
+    "contactNumber": "(033) 2564-5222",
+    "officialWebsite": "https://dakshineswarkalitemple.org/",
+    "googleMaps": "https://www.google.com/maps/search/?api=1&query=Dakshineswar%20Kali%20Temple%2C%20Kolkata",
+    "latitude": 22.65486,
+    "longitude": 88.35754,
+    "metroBookingUrl": "",
+    "hotels": [
+      {
+        "hotelId": "HOTEL-KOL-009",
+        "verificationId": "KTG-HOTEL-KOL-009",
+        "businessId": "HOTEL-KOL-009",
+        "name": "The Ashoka Hotel",
+        "type": "hotel",
+        "location": "113, AJC Bose Road, Vidyapati Setu, Lebutala, Bowbazar, Kolkata, West Bengal 700014, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 3.6,
+        "reviews": "1065",
+        "price": "₹2,000–₹5,000",
+        "priceUnit": "per night",
+        "description": [
+          "A centrally placed Kolkata hotel with basic guest facilities, restaurant and bar service."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Air Conditioning",
+          "Restaurant",
+          "Bar",
+          "Room Service",
+          "24-hour Front Desk"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=The+Ashoka+Hotel",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-009",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-009",
+        "id": "HOTEL-KOL-009",
+        "category": "City Hotel",
+        "starRating": "3-star",
+        "latitude": 22.5535,
+        "longitude": 88.3574,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      },
+      {
+        "hotelId": "HOTEL-KOL-010",
+        "verificationId": "KTG-HOTEL-KOL-010",
+        "businessId": "HOTEL-KOL-010",
+        "name": "FabHotel De Sivalika - Hotel in Howrah, Kolkata",
+        "type": "hotel",
+        "location": "317, GT Road, Belur Math, Belur, Howrah, West Bengal 711202, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 3.6,
+        "reviews": "687",
+        "price": "₹1,500–₹3,500",
+        "priceUnit": "per night",
+        "description": [
+          "A straightforward budget hotel near Belur Math railway station and the Belur Math temple."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Air Conditioning",
+          "Breakfast",
+          "Parking",
+          "Room Service",
+          "24-hour Front Desk"
+        ],
+        "website": "https://www.fabhotels.com/",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=FabHotel+De+Sivalika+-+Hotel+in+Howrah,+Kolkata",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-010",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-010",
+        "id": "HOTEL-KOL-010",
+        "category": "Budget Hotel",
+        "starRating": "3-star",
+        "latitude": 22.6328,
+        "longitude": 88.3517,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      },
+      {
+        "hotelId": "HOTEL-KOL-011",
+        "verificationId": "KTG-HOTEL-KOL-011",
+        "businessId": "HOTEL-KOL-011",
+        "name": "Dada Boudi Hotel",
+        "type": "hotel",
+        "location": "304, Green Park, Haltu, Kolkata, West Bengal 700078, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 4.5,
+        "reviews": "2",
+        "price": "₹1,500–₹4,000",
+        "priceUnit": "per night",
+        "description": [
+          "A small accommodation listing in the Haltu area. Publicly available review volume is very limited."
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Wi-Fi",
+          "Parking",
+          "Front Desk"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Hotel+Saptarshi",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-011",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-011",
+        "id": "HOTEL-KOL-011",
+        "category": "Budget Stay",
+        "starRating": "Unverified",
+        "latitude": 22.5126,
+        "longitude": 88.3994,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      },
+      {
+        "hotelId": "HOTEL-KOL-006",
+        "verificationId": "KTG-HOTEL-KOL-006",
+        "businessId": "HOTEL-KOL-006",
+        "name": "The LaLiT Great Eastern Kolkata",
+        "type": "hotel",
+        "location": "1,2,3 Old Court House Street, Dalhousie Square, Kolkata, West Bengal 700001, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+        "rating": 4.5,
+        "reviews": "18517",
+        "price": "₹8,000–₹22,000",
+        "priceUnit": "per night",
+        "description": [
+          "A heritage luxury hotel blending historic architecture with modern hospitality in central Kolkata."
+        ],
+        "facilities": [
+          "Wi-Fi",
+          "Swimming Pool",
+          "Spa",
+          "Fitness Centre",
+          "Restaurants",
+          "Bar",
+          "Room Service",
+          "Parking",
+          "Banquet Facilities"
+        ],
+        "website": "https://www.thelalit.com/the-lalit-great-eastern-kolkata/",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=The+LaLiT+Great+Eastern+Kolkata",
+        "openingTime": "24 hours",
+        "closingTime": "24 hours",
+        "placeId": "PLACE-KOL-HOTEL-006",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Hotel ID": "HOTEL-KOL-006",
+        "id": "HOTEL-KOL-006",
+        "category": "Heritage Luxury Hotel",
+        "starRating": "5-star",
+        "latitude": 22.5684,
+        "longitude": 88.3517,
+        "email": "",
+        "checkInTime": "2:00 PM",
+        "checkOutTime": "12:00 PM",
+        "dining": [],
+        "images": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "gallery": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85"
+        ],
+        "hasImage": true
+      }
+    ],
+    "restaurants": [
+      {
+        "restaurantId": "REST-KOL-007",
+        "verificationId": "KTG-REST-KOL-007",
+        "businessId": "REST-KOL-007",
+        "name": "BridgeView Rooftop Lounge",
+        "type": "restaurant",
+        "hotel": "Independent",
+        "location": "11/12, Burnt Salt Gola Lane, near Howrah AC Market, Howrah, West Bengal 711101, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+        "rating": 4.7,
+        "reviews": "123",
+        "price": "₹200–₹1,000",
+        "priceUnit": "per person",
+        "averageCost": "₹200–₹1,000",
+        "description": [
+          "BridgeView Rooftop Lounge is a Kolkata-area dining destination focused on indian & vegetarian cuisine."
+        ],
+        "cuisine": "Indian, Chinese, Vegetarian",
+        "openingTime": "12:30 PM",
+        "closingTime": "11:00 PM",
+        "menu": [
+          {
+            "name": "Paneer Tikka",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹320",
+            "type": "Veg",
+            "description": "Paneer Tikka, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Hakka Noodles",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹380",
+            "type": "Veg",
+            "description": "Veg Hakka Noodles, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Fried Rice",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹420",
+            "type": "Veg",
+            "description": "Veg Fried Rice, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chilli Paneer",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹450",
+            "type": "Veg",
+            "description": "Chilli Paneer, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Masala Dosa",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹520",
+            "type": "Veg",
+            "description": "Masala Dosa, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Manchurian",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹560",
+            "type": "Veg",
+            "description": "Veg Manchurian, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "French Fries",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹650",
+            "type": "Veg",
+            "description": "French Fries, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Sandwich",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹700",
+            "type": "Veg",
+            "description": "Veg Sandwich, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mushroom Chilli",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹780",
+            "type": "Veg",
+            "description": "Mushroom Chilli, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Brownie",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹850",
+            "type": "Veg",
+            "description": "Brownie, a popular-style indian & vegetarian dish; listed here as a representative menu item."
+          }
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Seating",
+          "Takeaway",
+          "Table Service",
+          "Digital/ Card Payment"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=BridgeView+Rooftop+Lounge",
+        "placeId": "PLACE-KOL-REST-007",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Restaurant ID": "REST-KOL-007",
+        "id": "REST-KOL-007"
+      },
+      {
+        "restaurantId": "REST-KOL-008",
+        "verificationId": "KTG-REST-KOL-008",
+        "businessId": "REST-KOL-008",
+        "name": "One by One",
+        "type": "restaurant",
+        "hotel": "Independent",
+        "location": "1/1, Khirode Chandra Ghosh Road, Babudanga, Howrah, West Bengal 711101, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+        "rating": 4.3,
+        "reviews": "747",
+        "price": "₹200–₹600",
+        "priceUnit": "per person",
+        "averageCost": "₹200–₹600",
+        "description": [
+          "One by One is a Kolkata-area dining destination focused on indian & non-vegetarian cuisine."
+        ],
+        "cuisine": "Indian, Mughlai",
+        "openingTime": "12:30 PM",
+        "closingTime": "11:00 PM",
+        "menu": [
+          {
+            "name": "Chicken Biryani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹320",
+            "type": "Non-Veg",
+            "description": "Chicken Biryani, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mutton Biryani",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹380",
+            "type": "Non-Veg",
+            "description": "Mutton Biryani, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Curry",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹420",
+            "type": "Non-Veg",
+            "description": "Chicken Curry, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mutton Curry",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹450",
+            "type": "Non-Veg",
+            "description": "Mutton Curry, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Kasha",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹520",
+            "type": "Non-Veg",
+            "description": "Chicken Kasha, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Egg Roll",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹560",
+            "type": "Veg",
+            "description": "Egg Roll, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Roll",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹650",
+            "type": "Non-Veg",
+            "description": "Chicken Roll, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Fish Fry",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹700",
+            "type": "Non-Veg",
+            "description": "Fish Fry, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Chicken Chaap",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹780",
+            "type": "Non-Veg",
+            "description": "Chicken Chaap, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Mutton Rezala",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹850",
+            "type": "Non-Veg",
+            "description": "Mutton Rezala, a popular-style indian & non-vegetarian dish; listed here as a representative menu item."
+          }
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Seating",
+          "Takeaway",
+          "Table Service",
+          "Digital/ Card Payment"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=One+by+One",
+        "placeId": "PLACE-KOL-REST-008",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Restaurant ID": "REST-KOL-008",
+        "id": "REST-KOL-008"
+      },
+      {
+        "restaurantId": "REST-KOL-010",
+        "verificationId": "KTG-REST-KOL-010",
+        "businessId": "REST-KOL-010",
+        "name": "Dakshineswar Food Plaza",
+        "type": "restaurant",
+        "hotel": "Independent",
+        "location": "Rani Rashmoni Road, Dakshineswar, Kolkata, West Bengal 700035, India",
+        "contactNumber": "9002907513",
+        "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+        "rating": 3.8,
+        "reviews": "304",
+        "price": "₹1–₹200",
+        "priceUnit": "per person",
+        "averageCost": "₹1–₹200",
+        "description": [
+          "Dakshineswar Food Plaza is a Kolkata-area dining destination focused on vegetarian indian cuisine."
+        ],
+        "cuisine": "Indian, Vegetarian",
+        "openingTime": "7:00 AM",
+        "closingTime": "8:00 PM",
+        "menu": [
+          {
+            "name": "Luchi Aloo",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹320",
+            "type": "Veg",
+            "description": "Luchi Aloo, a popular-style vegetarian indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Thali",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹380",
+            "type": "Veg",
+            "description": "Veg Thali, a popular-style vegetarian indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Khichuri",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹420",
+            "type": "Veg",
+            "description": "Khichuri, a popular-style vegetarian indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Dosa",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹450",
+            "type": "Veg",
+            "description": "Dosa, a popular-style vegetarian indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Idli",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹520",
+            "type": "Veg",
+            "description": "Idli, a popular-style vegetarian indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Vada",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹560",
+            "type": "Veg",
+            "description": "Vada, a popular-style vegetarian indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Veg Chowmein",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹650",
+            "type": "Veg",
+            "description": "Veg Chowmein, a popular-style vegetarian indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Paneer Roll",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹700",
+            "type": "Veg",
+            "description": "Paneer Roll, a popular-style vegetarian indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Samosa",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹780",
+            "type": "Veg",
+            "description": "Samosa, a popular-style vegetarian indian dish; listed here as a representative menu item."
+          },
+          {
+            "name": "Jalebi",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85",
+            "price": "₹850",
+            "type": "Veg",
+            "description": "Jalebi, a popular-style vegetarian indian dish; listed here as a representative menu item."
+          }
+        ],
+        "facilities": [
+          "Air Conditioning",
+          "Seating",
+          "Takeaway",
+          "Table Service",
+          "Digital/ Card Payment"
+        ],
+        "website": "",
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Dakshineswar+Food+Plaza",
+        "placeId": "PLACE-KOL-REST-010",
+        "updatedAt": "2026-09-03T14:37:00+05:30",
+        "Restaurant ID": "REST-KOL-010",
+        "id": "REST-KOL-010"
+      }
+    ]
+  }
+]

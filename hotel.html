@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kolkata Tourist Guide — Hotel details, booking and secure hotel editing">
+  <title>Hotels | Kolkata Tourist Guide</title>
+  <style>
+/* INTERNAL CSS: css/hotel.css */
+:root{
+  --bg:#f4f6fb;--surface:#fff;--text:#151823;--muted:#697084;--line:#e3e7ef;
+  --primary:#2513e4;--primary2:#aa99f7;--shadow:0 18px 55px rgba(23,31,56,.10);
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 10% 0%,#ece9ff 0,transparent 32%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+button,input,select,textarea{font:inherit}button{cursor:pointer}
+.topbar{position:sticky;top:0;z-index:20;height:70px;background:rgba(255,255,255,.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;padding:0 24px}
+.brand{display:flex;gap:12px;align-items:center}.logo{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;color:#fff;font-weight:900;background:linear-gradient(135deg,var(--primary),var(--primary2));box-shadow:0 8px 25px rgba(91,76,240,.25)}.brand strong{display:block}.brand span{display:block;color:var(--muted);font-size:12px;margin-top:2px}.top-actions{display:flex;gap:8px}.ghost,.icon-btn{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:10px 14px;color:var(--text)}.icon-btn{width:42px;padding:10px}
+.page{max-width:1240px;margin:auto;padding:26px 18px 80px}.hero{min-height:310px;border-radius:30px;overflow:hidden;background:linear-gradient(135deg,#171b2d,#322b70);color:#fff;display:grid;grid-template-columns:1.5fr .7fr;gap:20px;padding:42px;box-shadow:var(--shadow);position:relative}.hero.has-place-image{background-image:linear-gradient(90deg,rgba(236, 237, 243, 0) 0%,rgba(214, 214, 224, 0.007) 34%,rgba(226, 226, 233, 0) 57%,rgba(231, 230, 236, 0.096) 100%),var(--place-image);background-size:cover;background-position:center right;background-repeat:no-repeat}.hero:after{content:"";position:absolute;inset:auto -80px -120px auto;width:330px;height:330px;border-radius:50%;background:rgba(255,255,255,.08);z-index:0}.hero-copy{position:relative;z-index:2}.hero.has-place-image .hero-visual{display:none}.hero.has-place-image{grid-template-columns:1fr}.eyebrow{font-size:11px;letter-spacing:.14em;font-weight:800;color:#7667ff}.hero .eyebrow{color:#bcb5ff}.hero h1{font-size:clamp(34px,5vw,62px);line-height:1.03;margin:12px 0 16px;max-width:760px}.hero p{max-width:650px;color:#d6d9e8;line-height:1.7}.hero-stats{display:flex;gap:14px;margin-top:28px}.hero-stats div{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.13);padding:12px 16px;border-radius:15px}.hero-stats b{display:block;font-size:20px}.hero-stats span{font-size:11px;color:#c5c8d5}.hero-visual{position:relative;z-index:2;align-self:center;justify-self:end;width:230px;height:190px;border:1px solid rgba(255,255,255,.18);border-radius:28px;background:linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.03));display:grid;place-items:center;align-content:center;gap:10px;color:#cfd2e1}.hotel-building{font-size:72px;filter:drop-shadow(0 14px 25px rgba(0,0,0,.2))}
+.layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(360px,.85fr);gap:22px;margin-top:24px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:14px}.section-head h2{margin:5px 0 0;font-size:28px}.search{width:min(330px,100%);padding:12px 14px;border:1px solid var(--line);border-radius:13px;background:var(--surface);outline:none}.search:focus,input:focus,select:focus,textarea:focus{border-color:var(--primary);box-shadow:0 0 0 4px rgba(91,76,240,.10)}
+.cards{display:grid;gap:13px}.hotel-card{display:grid;grid-template-columns:150px 1fr;gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:12px;transition:.2s;box-shadow:0 6px 24px rgba(23,31,56,.04)}.hotel-card:hover,.hotel-card.active{transform:translateY(-2px);border-color:#bbb3ff;box-shadow:0 15px 35px rgba(23,31,56,.10)}.hotel-placeholder{height:150px;border-radius:15px;background:linear-gradient(145deg,#e9e7ff,#f2f3f8);display:grid;place-items:center;font-size:48px}.card-body h3{margin:4px 0 8px;font-size:20px}.muted{color:var(--muted);font-size:13px;line-height:1.5}.meta{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.pill{border:1px solid var(--line);border-radius:999px;padding:6px 9px;font-size:11px;background:#fafbfe}.rating{color:#9b6b00;background:#fff7df;border-color:#f4df9a}.price{color:#28663b;background:#effbf3;border-color:#ccebd5}
+.details{background:var(--surface);border:1px solid var(--line);border-radius:24px;min-height:520px;overflow:hidden;box-shadow:var(--shadow);position:sticky;top:92px;align-self:start}.details-head{padding:22px 22px 10px}.details h2{margin:0 0 7px;font-size:28px}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0 22px 16px}.detail-box{background:#f7f8fc;border-radius:14px;padding:11px}.detail-box span{display:block;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.detail-box b{display:block;margin-top:4px;font-size:13px}.details-section{padding:16px 22px;border-top:1px solid var(--line)}.details-section h3{margin:0 0 11px;font-size:15px}.chips{display:flex;flex-wrap:wrap;gap:7px}.actions{display:flex;gap:9px;flex-wrap:wrap}.primary{border:0;border-radius:13px;padding:12px 16px;color:#fff;background:linear-gradient(135deg,var(--primary),var(--primary2));font-weight:800;box-shadow:0 10px 25px rgba(91,76,240,.20)}.secondary{border:1px solid var(--line);background:var(--surface);border-radius:13px;padding:12px 16px;font-weight:700}.empty{padding:70px 25px;text-align:center;color:var(--muted)}.empty>div{font-size:52px}.empty h3{color:var(--text);margin:10px 0 5px}.notice{margin-top:22px;background:#fff9e8;border:1px solid #f0dfaa;border-radius:16px;padding:14px 16px;display:flex;gap:10px;flex-wrap:wrap;font-size:13px}.notice span{color:#756b50}
+.modal{position:fixed;inset:0;background:rgba(9,12,23,.62);backdrop-filter:blur(8px);z-index:50;display:grid;place-items:center;padding:18px}.hidden{display:none!important}.modal-card{width:min(620px,100%);max-height:92vh;overflow:auto;background:var(--surface);border-radius:24px;padding:26px;box-shadow:0 30px 100px rgba(0,0,0,.25);position:relative}.modal-card.wide{width:min(900px,100%)}.modal-card.compact{width:min(520px,100%)}.close{position:absolute;right:16px;top:14px;border:0;background:#f1f2f6;width:36px;height:36px;border-radius:50%;font-size:22px}.modal-card h2{margin:7px 0 20px}.modal-card label{display:grid;gap:7px;font-size:12px;font-weight:800;color:var(--muted);margin-bottom:13px}.modal-card input,.modal-card select,.modal-card textarea{width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--text);outline:none}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.booking-summary{display:flex;justify-content:space-between;background:#f6f7fb;border-radius:13px;padding:13px;margin:6px 0 14px}.result{margin-top:12px;font-size:13px}.result.success{color:#247343}.error{color:#b32c3a;margin-top:10px;font-size:13px}.edit-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.edit-field.full{grid-column:1/-1}.save-row{display:flex;gap:10px;margin-top:15px}
+body.dark{--bg:#0f1118;--surface:#171a24;--text:#f1f3f8;--muted:#a8afbf;--line:#2a2f3d}body.dark .topbar{background:rgba(23,26,36,.88)}body.dark .detail-box,body.dark .booking-summary,body.dark .pill{background:#1d2130}body.dark .hotel-placeholder{background:linear-gradient(145deg,#282442,#20232d)}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.hero-visual{display:none}.layout{grid-template-columns:1fr}.details{position:relative;top:auto}.section-head{align-items:stretch;flex-direction:column}.search{width:100%}}
+@media(max-width:600px){.topbar{padding:0 12px}.brand strong{font-size:13px}.page{padding:14px 10px 60px}.hero{padding:27px 22px;border-radius:22px}.hero h1{font-size:36px}.hotel-card{grid-template-columns:1fr}.hotel-placeholder{height:190px}.grid2,.edit-grid,.detail-grid{grid-template-columns:1fr}.edit-field.full{grid-column:auto}.details h2{font-size:23px}}
+
+/* ===== Hotel editor / image-link UI ===== */
+.card-kicker{font-size:10px;letter-spacing:.13em;font-weight:900;color:#7667ff;margin-bottom:4px}.hotel-thumb{height:150px;border-radius:15px;overflow:hidden;background:#eef0f6}.hotel-thumb img,.detail-image img,.edit-image-preview img{width:100%;height:100%;display:block;object-fit:cover}.detail-image{height:220px;background:#eef0f6;overflow:hidden}.image-empty{height:100%;min-height:110px;display:grid;place-items:center;align-content:center;gap:7px;color:#8b91a3;text-align:center;padding:20px}.image-empty span{font-size:44px}.image-empty b{font-size:13px;color:inherit}.image-empty small{font-size:11px}.room-box{margin-bottom:8px}.detail-grid.inner{padding:0}.editModalPlaceholder{}
+.modal-card.wide{padding:0;overflow:hidden}.modal-card.wide>.eyebrow,.modal-card.wide>h2,.modal-card.wide>.close{z-index:2}.modal-card.wide>.eyebrow{display:block;padding:26px 28px 0}.modal-card.wide>h2{padding:0 28px;margin-bottom:18px}.editor-shell{display:grid;grid-template-columns:250px minmax(0,1fr);border-top:1px solid var(--line)}.editor-sidebar{background:linear-gradient(180deg,#f7f8fc,#eef0f6);padding:22px;border-right:1px solid var(--line)}.edit-image-preview{height:220px;border-radius:15px;overflow:hidden;background:#e4e7ef;box-shadow:0 12px 30px rgba(23,31,56,.12)}.edit-image-preview .image-empty{min-height:220px}.change-image-btn{width:100%;margin-top:12px;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:11px 12px;font-weight:800;color:var(--text)}.image-link-panel{display:none;margin-top:10px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px}.image-link-panel.open{display:block}.image-link-panel label{margin:0}.image-link-panel small{display:block;color:var(--muted);font-size:10px;line-height:1.45;margin-top:7px}.side-info{margin-top:12px;padding:12px;border-radius:12px;background:rgba(255,255,255,.65);border:1px solid var(--line)}.side-info span{display:block;color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.08em}.side-info b{display:block;font-size:12px;margin-top:5px;word-break:break-word}.editor-main{padding:22px 28px 28px;max-height:70vh;overflow:auto}.form-section{padding:0 0 20px;margin-bottom:20px;border-bottom:1px solid var(--line)}.form-section:last-of-type{margin-bottom:0}.form-section-title{display:flex;align-items:center;gap:9px;font-size:14px;margin-bottom:15px}.form-section-title span{width:25px;height:25px;border-radius:8px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,var(--primary),var(--primary2));font-size:12px}.edit-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.edit-field{display:grid;gap:7px;font-size:11px;font-weight:800;color:var(--muted);margin:0}.edit-field.full{grid-column:1/-1}.edit-field input,.edit-field select,.edit-field textarea{width:100%;padding:12px 13px;border:1px solid var(--line);border-radius:11px;background:var(--surface);color:var(--text);outline:none;resize:vertical}.save-row{display:flex;gap:10px;align-items:center;padding-top:4px}.save-btn{flex:1}.dark .editor-sidebar{background:#141720}.dark .side-info{background:#1a1e29}.dark .image-link-panel{background:#171a24}
+@media(max-width:760px){.editor-shell{grid-template-columns:1fr}.editor-sidebar{border-right:0;border-bottom:1px solid var(--line)}.edit-image-preview{height:240px}.editor-main{padding:20px;max-height:65vh}.edit-grid{grid-template-columns:1fr}.edit-field.full{grid-column:auto}.modal-card.wide>.eyebrow{padding-left:20px}.modal-card.wide>h2{padding-left:20px}.hotel-thumb{height:190px}}
+
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="logo">KTG</div>
+    <div><strong>Kolkata Tourist Guide</strong><span>Hotels & Stays</span></div>
+  </div>
+  <div class="top-actions">
+    <button id="backBtn" class="ghost">← Back</button>
+    <button id="themeBtn" class="icon-btn" aria-label="Toggle theme">☼</button>
+  </div>
+</header>
+
+<main class="page">
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow">STAY NEAR YOUR DESTINATION</span>
+      <h1 id="heroTitle">Find a comfortable stay in Kolkata</h1>
+      <p id="heroText">Hotel information is loaded directly from the JSON data used by KTG.</p>
+      <div class="hero-stats">
+        <div><b id="hotelCount">0</b><span>Hotels</span></div>
+        <div><b id="placeLabel">—</b><span>Destination</span></div>
+      </div>
+    </div>
+    <div id="heroVisual" class="hero-visual" aria-label="Hotel visual placeholder">
+      <div class="hotel-building">🏨</div>
+      <span>Hotel data</span>
+    </div>
+  </section>
+
+  <section class="layout">
+    <section>
+      <div class="section-head">
+        <div><span class="eyebrow">AVAILABLE HOTELS</span><h2 id="placeName">Kolkata</h2></div>
+        <input id="hotelSearch" class="search" type="search" placeholder="Search hotel, area, category...">
+      </div>
+      <div id="hotelCards" class="cards"></div>
+    </section>
+
+    <aside id="details" class="details">
+      <div class="empty"><div>🏨</div><h3>Select a hotel</h3><p>Choose a hotel to view complete details.</p></div>
+    </aside>
+  </section>
+
+  <section class="notice">
+    <strong>Booking note</strong>
+    <span>This interface collects a booking request. It does not process payment or guarantee live room availability.</span>
+  </section>
+</main>
+
+<div id="bookingModal" class="modal hidden" aria-hidden="true">
+  <div class="modal-card">
+    <button class="close" data-close="bookingModal">×</button>
+    <span class="eyebrow">BOOKING REQUEST</span>
+    <h2 id="bookingHotelName">Hotel</h2>
+    <form id="bookingForm">
+      <div class="grid2">
+        <label>Guest name<input id="guestName" required></label>
+        <label>Phone<input id="guestPhone" type="tel" required></label>
+      </div>
+      <div class="grid2">
+        <label>Guests<select id="guestCount"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option></select></label>
+        <label>Room<select id="roomSelect" required></select></label>
+      </div>
+      <div class="grid2">
+        <label>Check-in<input id="checkIn" type="date" required></label>
+        <label>Check-out<input id="checkOut" type="date" required></label>
+      </div>
+      <label>Address / message<textarea id="guestAddress" rows="3" placeholder="Optional"></textarea></label>
+      <div class="booking-summary"><span>Selected room</span><b id="selectedRoomPrice">—</b></div>
+      <button class="primary" type="submit">Confirm Booking Request</button>
+    </form>
+    <div id="bookingResult" class="result"></div>
+  </div>
+</div>
+
+<div id="editAccessModal" class="modal hidden" aria-hidden="true">
+  <div class="modal-card compact">
+    <button class="close" data-close="editAccessModal">×</button>
+    <span class="eyebrow">SECURE HOTEL EDIT</span>
+    <h2 id="editTargetName">Hotel</h2>
+    <p>Enter the hotel-specific Verification / Edit ID stored in the JSON data. The master admin ID is also supported.</p>
+    <form id="editAccessForm">
+      <label>Verification / Edit ID<input id="hotelEditId" autocomplete="off" required placeholder="KTG-HOTEL-..."></label>
+      <button class="primary" type="submit" id="verifyHotelBtn">Verify ID</button>
+    </form>
+    <div id="editAccessError" class="error"></div>
+  </div>
+</div>
+
+<div id="editModal" class="modal hidden" aria-hidden="true">
+  <div class="modal-card wide">
+    <button class="close" data-close="editModal">×</button>
+    <span class="eyebrow">HOTEL EDITOR</span>
+    <h2 id="editTitle">Edit hotel</h2>
+    <form id="hotelEditForm"></form>
+  </div>
+</div>
+
+<script src="github-pages.js"></script>
+<script>
+/* INTERNAL JS: js/hotel.js */
+const MASTER_ADMIN_ID = "KTG-ADMIN-2026";
+const params = new URLSearchParams(location.search);
+const requestedPlaceId = params.get("id");
+
+let allPlaces = [];
+let currentPlace = null;
+let hotels = [];
+let currentHotel = null;
+let verifiedEditId = "";
+
+const $ = (id) => document.getElementById(id);
+const clean = (v) => String(v ?? "").trim();
+const esc = (v) => clean(v).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+
+function imageUrl(h){
+  const v = h?.image;
+  return typeof v === "string" && /^https?:\/\//i.test(v.trim()) ? v.trim() : "";
+}
+
+function safeUrl(v){
+  const s = clean(v);
+  return /^https?:\/\//i.test(s) ? s : "";
+}
+
+function renderImagePreview(container, url, emptyText = "No image"){
+  if(!container) return;
+  const valid = safeUrl(url);
+  container.innerHTML = valid
+    ? `<img src="${esc(valid)}" alt="Hotel preview" referrerpolicy="no-referrer" onerror="this.parentElement.innerHTML='<div class=\"image-empty\"><span>🖼️</span><b>Image could not be loaded</b><small>Check the image link</small></div>'">`
+    : `<div class="image-empty"><span>🏨</span><b>${esc(emptyText)}</b><small>Only an image link can be added</small></div>`;
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  $("backBtn").addEventListener("click", () => {
+    if (requestedPlaceId) location.href = `place.html?id=${encodeURIComponent(requestedPlaceId)}`;
+    else history.back();
+  });
+  $("themeBtn").addEventListener("click", toggleTheme);
+  document.querySelectorAll("[data-close]").forEach(b => b.addEventListener("click", () => closeModal($(b.dataset.close))));
+  document.addEventListener("keydown", e => { if(e.key === "Escape") document.querySelectorAll(".modal").forEach(m => closeModal(m)); });
+  $("hotelSearch").addEventListener("input", renderCards);
+  $("bookingForm").addEventListener("submit", submitBooking);
+  $("editAccessForm").addEventListener("submit", verifyHotelEdit);
+  $("hotelEditForm").addEventListener("submit", saveHotelEdit);
+  load();
+});
+
+async function load(){
+  try{
+    // Prefer the page-linked JSON if it exists; otherwise use the bundled hotel data.
+    let json = null;
+    const candidates = ["data/places.json", "data/hotels.json"];
+    for(const src of candidates){
+      try{
+        const res = await fetch(src,{cache:"no-store"});
+        if(res.ok){ json = await res.json(); break; }
+      }catch(_){ /* try next source */ }
+    }
+    if(!json) throw new Error("Could not load hotel JSON data.");
+
+    allPlaces = Array.isArray(json) ? json : Array.isArray(json.places) ? json.places : [];
+    const bundledHotels = Array.isArray(json.hotels) ? json.hotels : Array.isArray(json.data) ? json.data : [];
+
+    if(allPlaces.length){
+      currentPlace = requestedPlaceId
+        ? allPlaces.find(p => clean(p.id)===clean(requestedPlaceId) || clean(p.placeId)===clean(requestedPlaceId))
+        : allPlaces[0];
+      if(!currentPlace) currentPlace = allPlaces[0];
+      hotels = getHotelsFromPlace(currentPlace);
+      if(!hotels.length && bundledHotels.length) hotels = bundledHotels.filter(h => samePlace(h,currentPlace));
+    } else {
+      // hotels.json is also supported as a standalone source.
+      hotels = requestedPlaceId ? bundledHotels.filter(h => samePlace(h,{id:requestedPlaceId})) : bundledHotels;
+      currentPlace = {id: requestedPlaceId || "", name: hotels[0]?.placeName || "Kolkata", shortInfo:"Hotel information loaded from the KTG JSON data."};
+    }
+
+    renderPlace();
+    renderCards();
+  }catch(err){
+    console.error(err);
+    $("hotelCards").innerHTML = `<div class="empty"><div>⚠️</div><h3>Could not load hotel data</h3><p>${esc(err.message)}</p></div>`;
+  }
+}
+
+function getHotelsFromPlace(place){
+  return Array.isArray(place?.hotels) ? place.hotels
+    : Array.isArray(place?.hotel) ? place.hotel
+    : Array.isArray(place?.hotelList) ? place.hotelList : [];
+}
+function samePlace(h,p){
+  const a = clean(h.placeId||h.placeSlug||h.placeName).toLowerCase();
+  const ids = [clean(p.id),clean(p.placeId),clean(p.name)].map(x=>x.toLowerCase());
+  return !a || ids.includes(a) || ids.some(x => x && a && (a===x || a.includes(x) || x.includes(a)));
+}
+function renderPlace(){
+  const name = currentPlace?.name || currentPlace?.placeName || "Kolkata";
+  $("placeName").textContent = name;
+  $("placeLabel").textContent = name;
+  $("heroTitle").textContent = `Find your next stay near ${name}`;
+  $("heroText").textContent = currentPlace?.shortInfo || currentPlace?.description || "Choose a comfortable hotel for your trip.";
+  document.title = `Hotels near ${name} | Kolkata Tourist Guide`;
+
+  // Show ONLY the searched destination's JSON image in the top Hero area.
+  // The hotel cards/details below are intentionally untouched.
+  const hero = document.querySelector(".hero");
+  const placeImage = safeUrl(currentPlace?.image);
+  if(hero){
+    hero.classList.toggle("has-place-image", !!placeImage);
+    if(placeImage){
+      hero.style.setProperty("--place-image", `url("${placeImage.replace(/"/g, '\"')}")`);
+      hero.setAttribute("data-place-image", placeImage);
+    }else{
+      hero.style.removeProperty("--place-image");
+      hero.removeAttribute("data-place-image");
+    }
+  }
+}
+function renderCards(){
+  const q = clean($("hotelSearch").value).toLowerCase();
+  const filtered = hotels.filter(h => [h.name,h.hotelName,h.location,h.category,h.starRating].join(" ").toLowerCase().includes(q));
+  $("hotelCount").textContent = filtered.length;
+  const box = $("hotelCards");
+  box.innerHTML = "";
+  if(!filtered.length){
+    box.innerHTML = `<div class="empty"><div>🏨</div><h3>No matching hotels</h3><p>No hotel record matched your search.</p></div>`;
+    $("details").innerHTML = `<div class="empty"><div>🏨</div><h3>Select a hotel</h3><p>Choose a hotel to view complete details.</p></div>`;
+    return;
+  }
+  filtered.forEach(h=>{
+    const card=document.createElement("article");
+    card.className="hotel-card";
+    const img=imageUrl(h);
+    card.innerHTML = `
+      <div class="hotel-thumb">${img ? `<img src="${esc(img)}" alt="${esc(h.name||h.hotelName||"Hotel")}" referrerpolicy="no-referrer" onerror="this.parentElement.innerHTML='<div class=\"image-empty\"><span>🏨</span><small>Image unavailable</small></div>'">` : `<div class="image-empty"><span>🏨</span><small>No image in JSON</small></div>`}</div>
+      <div class="card-body">
+        <div class="card-kicker">${esc(h.category||"HOTEL")}</div>
+        <h3>${esc(h.name||h.hotelName||"Hotel")}</h3>
+        <div class="muted">📍 ${esc(h.location||h.address||"Kolkata")}</div>
+        <div class="meta">
+          ${h.starRating?`<span class="pill">${esc(h.starRating)}</span>`:""}
+          ${h.rating?`<span class="pill rating">★ ${esc(h.rating)}</span>`:""}
+          ${startingPrice(h)?`<span class="pill price">${esc(formatPrice(startingPrice(h)))} / night</span>`:""}
+        </div>
+        <div class="muted">${esc(h.description||h.shortInfo||"Hotel information available.")}</div>
+      </div>`;
+    card.addEventListener("click",()=>selectHotel(h));
+    box.appendChild(card);
+  });
+  selectHotel(filtered[0]);
+}
+function selectHotel(h){
+  currentHotel=h;
+  document.querySelectorAll(".hotel-card").forEach(c=>c.classList.remove("active"));
+  const cards=[...document.querySelectorAll(".hotel-card")];
+  const match=cards.find(c=>c.querySelector("h3")?.textContent===clean(h.name||h.hotelName||"Hotel"));
+  if(match) match.classList.add("active");
+  renderDetails(h);
+  $("editTargetName").textContent=h.name||h.hotelName||"Hotel";
+}
+function roomsOf(h){
+  if(Array.isArray(h.rooms)) return h.rooms;
+  if(Array.isArray(h.roomTypes)) return h.roomTypes.map(r=>typeof r==="string"?{name:r}:r);
+  return [];
+}
+function facilitiesOf(h){return Array.isArray(h.facilities)?h.facilities:Array.isArray(h.amenities)?h.amenities:[];}
+function startingPrice(h){
+  if(h.price!==undefined && clean(h.price)) return h.price;
+  const r=roomsOf(h); return r.length ? (r.map(x=>x.price||x.rate).find(Boolean)||"") : "";
+}
+function formatPrice(v){if(v===undefined||v===null||clean(v)==="")return "—";const s=clean(v);return s.startsWith("₹")?s:`₹${s}`;}
+function policiesOf(h){return h.policies||{};}
+function renderDetails(h){
+  const name=h.name||h.hotelName||"Hotel", fac=facilitiesOf(h), rooms=roomsOf(h), p=policiesOf(h), img=imageUrl(h);
+  $("details").innerHTML=`
+    <div class="detail-image">${img ? `<img src="${esc(img)}" alt="${esc(name)}" referrerpolicy="no-referrer" onerror="this.parentElement.innerHTML='<div class=\"image-empty\"><span>🏨</span><b>Image unavailable</b></div>'">` : `<div class="image-empty"><span>🏨</span><b>No image supplied</b><small>Hotel JSON has no image link</small></div>`}</div>
+    <div class="details-head">
+      <span class="eyebrow">HOTEL DETAILS</span>
+      <h2>${esc(name)}</h2>
+      <div class="muted">📍 ${esc(h.location||h.address||"Kolkata")}</div>
+      <p class="muted">${esc(h.description||h.about||h.shortInfo||"Hotel information available.")}</p>
+    </div>
+    <div class="detail-grid">
+      ${box("Category",h.category||"Hotel")}${box("Star rating",h.starRating||"—")}
+      ${box("Contact",h.contactNumber||"—")}${box("Starting rate",formatPrice(startingPrice(h)))}
+      ${box("Check-in",p.checkIn||h.checkInTime||h.checkIn||"—")}${box("Check-out",p.checkOut||h.checkOutTime||h.checkOut||"—")}
+      ${box("Open",h.openingTime||"—")}${box("Close",h.closingTime||"—")}
+    </div>
+    <section class="details-section"><h3>Rooms & Rates</h3><div>${rooms.length?rooms.map(r=>`<div class="detail-box room-box"><b>${esc(r.name||r.type||"Room")}</b><div class="muted">${esc(r.guests||r.capacity||"2 Guests")} · ${esc(formatPrice(r.price||r.rate||"—"))}</div></div>`).join(""):`<div class="muted">Room information not supplied.</div>`}</div></section>
+    <section class="details-section"><h3>Facilities</h3><div class="chips">${fac.length?fac.map(x=>`<span class="pill">${esc(x)}</span>`).join(""):`<span class="muted">No facilities supplied.</span>`}</div></section>
+    <section class="details-section"><h3>Dining</h3><div class="chips">${(h.dining||h.restaurants||[]).map(x=>`<span class="pill">${esc(x)}</span>`).join("")||`<span class="muted">No dining information supplied.</span>`}</div></section>
+    <section class="details-section"><h3>Policies</h3><div class="detail-grid inner">${box("Cancellation",p.cancellation||h.cancellation||"As per hotel policy")}${box("Children",p.children||h.childrenPolicy||"Allowed")}${box("Pets",p.pets||h.petPolicy||"Check with hotel")}${box("Payment",p.payment||h.payment||"Online / Hotel")}</div></section>
+    <section class="details-section"><div class="actions"><button class="primary" id="bookBtn">View Details & Book Now</button><button class="secondary" id="editBtn">✎ Edit Hotel</button>${h.website||h.officialWebsite?`<a class="secondary" target="_blank" rel="noopener" href="${esc(h.website||h.officialWebsite)}">Official Website</a>`:""}${h.googleMaps?`<a class="secondary" target="_blank" rel="noopener" href="${esc(h.googleMaps)}">Map</a>`:""}</div></section>`;
+  $("bookBtn").addEventListener("click",()=>openBooking(h));
+  $("editBtn").addEventListener("click",openEditAccess);
+}
+function box(k,v){return `<div class="detail-box"><span>${esc(k)}</span><b>${esc(v||"—")}</b></div>`;}
+
+function openBooking(h){
+  currentHotel=h; $("bookingHotelName").textContent=h.name||h.hotelName||"Hotel";
+  const select=$("roomSelect"), rooms=roomsOf(h); select.innerHTML="";
+  (rooms.length?rooms:[{name:"Standard Room",price:startingPrice(h)}]).forEach((r,i)=>{const o=document.createElement("option");o.value=String(i);o.textContent=`${r.name||r.type||"Room"} — ${formatPrice(r.price||r.rate||"—")}`;select.appendChild(o);});
+  const update=()=>{const r=(rooms.length?rooms:[{price:startingPrice(h)}])[Number(select.value)||0];$("selectedRoomPrice").textContent=formatPrice(r.price||r.rate||startingPrice(h));};
+  select.onchange=update;update();$("bookingResult").textContent="";openModal($("bookingModal"));
+}
+async function submitBooking(e){
+  e.preventDefault();
+  if(!currentHotel)return;
+
+  const guestName=clean($("guestName").value);
+  const phone=clean($("guestPhone").value);
+  const guests=Number($("guestCount").value);
+  const checkIn=clean($("checkIn").value);
+  const checkOut=clean($("checkOut").value);
+  const address=clean($("guestAddress").value);
+  const selectedRoom=$("roomSelect").selectedOptions[0]?.textContent||"";
+
+  if(!guestName){$("bookingResult").className="result error";$("bookingResult").textContent="Please enter your name.";return;}
+  if(phone.replace(/\D/g,"").length<10){$("bookingResult").className="result error";$("bookingResult").textContent="Please enter a valid mobile number.";return;}
+  if(!Number.isInteger(guests)||guests<1||guests>20){$("bookingResult").className="result error";$("bookingResult").textContent="Guests must be between 1 and 20.";return;}
+  if(!checkIn||!checkOut){$("bookingResult").className="result error";$("bookingResult").textContent="Please select check-in and check-out dates.";return;}
+
+  const businessName=currentHotel.name||currentHotel.hotelName||"Hotel";
+  let whatsappNumber=clean(currentHotel.contactNumber||currentHotel.phone||"").replace(/\D/g,"");
+
+  // Testing number: 9002907513. If a future data number is already international,
+  // preserve its country code; otherwise assume India (+91).
+  if(whatsappNumber.startsWith("0")) whatsappNumber=whatsappNumber.replace(/^0+/,"");
+  if(whatsappNumber.length===10) whatsappNumber="91"+whatsappNumber;
+
+  if(!whatsappNumber){
+    $("bookingResult").className="result error";
+    $("bookingResult").textContent="This hotel does not have a valid WhatsApp contact number in places.json.";
+    return;
+  }
+
+  const button=e.submitter;
+  if(button){
+    button.disabled=true;
+    button.dataset.originalText=button.textContent;
+    button.textContent="Opening WhatsApp…";
+  }
+  $("bookingResult").className="result";
+  $("bookingResult").textContent="Preparing your booking details for WhatsApp…";
+
+  try{
+    const bookingId="KTG-HOTEL-BOOK-"+Date.now().toString(36).toUpperCase();
+    const lines=[
+      "🏨 KTG HOTEL BOOKING REQUEST",
+      "",
+      `Hotel: ${businessName}`,
+      `Booking ID: ${bookingId}`,
+      "",
+      `Guest Name: ${guestName}`,
+      `Guest Phone: ${phone}`,
+      `Guests: ${guests}`,
+      `Room: ${selectedRoom||"Standard Room"}`,
+      `Check-in: ${checkIn}`,
+      `Check-out: ${checkOut}`
+    ];
+    if(address)lines.push(`Guest Address: ${address}`);
+    lines.push("", "Please confirm availability with the customer.", "", "Sent from Kolkata Tourist Guide (KTG)");
+
+    const whatsappUrl=`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(lines.join("\n"))}`;
+
+    // Open directly from the submit event so browsers are less likely to block it.
+    const popup=window.open(whatsappUrl,"_blank","noopener,noreferrer");
+    if(!popup){
+      window.location.href=whatsappUrl;
+      return;
+    }
+
+    localStorage.setItem("ktg_last_hotel_booking",JSON.stringify({
+      bookingId,
+      entityType:"hotel",
+      entityId:getHotelId(currentHotel),
+      entityName:businessName,
+      customerName:guestName,
+      customerPhone:phone,
+      guests,
+      roomType:selectedRoom,
+      checkIn,
+      checkOut,
+      address,
+      whatsappNumber,
+      createdAt:new Date().toISOString(),
+      whatsappSent:true
+    }));
+
+    $("bookingResult").className="result success";
+    $("bookingResult").textContent=`✓ Booking ${bookingId} prepared. WhatsApp opened for ${businessName}.`;
+  }catch(err){
+    console.error("Hotel WhatsApp booking error:",err);
+    $("bookingResult").className="result error";
+    $("bookingResult").textContent=err.message||"Could not open WhatsApp booking.";
+  }finally{
+    if(button){button.disabled=false;button.textContent=button.dataset.originalText||"Confirm Booking Request";}
+  }
+}
+
+function openEditAccess(){
+  if(!currentHotel)return;
+  $("editTargetName").textContent=currentHotel.name||currentHotel.hotelName||"Hotel";
+  $("hotelEditId").value="";$("editAccessError").textContent="";openModal($("editAccessModal"));
+}
+async function verifyHotelEdit(e){
+  e.preventDefault();const supplied=clean($("hotelEditId").value);if(!supplied)return;
+  const expected=getVerificationId(currentHotel);
+  if(supplied===MASTER_ADMIN_ID || (expected && supplied===expected)){verifiedEditId=supplied;closeModal($("editAccessModal"));openEditForm();return;}
+  try{
+    const r=await fetch("/api/admin/verify",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({editId:supplied,entityType:"hotel",entityId:getHotelId(currentHotel),entityName:currentHotel.name||currentHotel.hotelName,placeId:currentPlace?.id||currentPlace?.placeId||""})});
+    const j=await r.json();if(r.ok&&j.success){verifiedEditId=supplied;closeModal($("editAccessModal"));openEditForm();return;}throw new Error(j.message||"Invalid Hotel Verification ID.");
+  }catch(err){$("editAccessError").textContent=err.message||"Invalid Hotel Verification ID.";}
+}
+
+function openEditForm(){
+  const h=currentHotel, form=$("hotelEditForm"), img=imageUrl(h);
+  $("editTitle").textContent=`Edit: ${h.name||h.hotelName||"Hotel"}`;
+  form.innerHTML=`
+    <div class="editor-shell">
+      <aside class="editor-sidebar">
+        <div id="editImagePreview" class="edit-image-preview"></div>
+        <button type="button" class="change-image-btn" id="changeImageBtn">↥ Change Image</button>
+        <div class="image-link-panel" id="imageLinkPanel">
+          <label>Image Link
+            <input id="hotelImageUrl" data-field="image" type="url" inputmode="url" placeholder="https://example.com/hotel-image.jpg" value="${esc(img)}" autocomplete="off">
+          </label>
+          <small>Only a direct image URL/link is accepted. No file upload is used.</small>
+        </div>
+        <div class="side-info"><span>Hotel ID</span><b>${esc(getHotelId(h)||"—")}</b></div>
+        <div class="side-info"><span>Verification</span><b>Protected</b></div>
+      </aside>
+      <section class="editor-main">
+        <div class="form-section"><div class="form-section-title"><span>▣</span><b>Basic Information</b></div>
+          <div class="edit-grid">
+            ${editField("name","Hotel Name",h.name||h.hotelName||"")}
+            ${editField("category","Hotel Type",h.category||"Luxury Hotel","select",["Luxury Hotel","Business Hotel","Boutique Hotel","Budget Hotel","Resort","Heritage Hotel","Other"])}
+            ${editField("description","Description",h.description||h.about||"", "textarea")}
+            ${editField("starRating","Star Rating",h.starRating||"5-star","select",["1-star","2-star","3-star","4-star","5-star","Unrated"])}
+            ${editField("price","Price Range / Starting Price",h.price||startingPrice(h)||"")}
+          </div>
+        </div>
+        <div class="form-section"><div class="form-section-title"><span>⌖</span><b>Location</b></div>
+          <div class="edit-grid">${editField("location","Address / Location",h.location||h.address||"","input",null,true)}${editField("latitude","Latitude",h.latitude??"")}${editField("longitude","Longitude",h.longitude??"")}</div>
+        </div>
+        <div class="form-section"><div class="form-section-title"><span>▣</span><b>Contact Information</b></div>
+          <div class="edit-grid">${editField("contactNumber","Phone Number",h.contactNumber||"")}${editField("email","Email",h.email||"")}${editField("website","Website",h.website||h.officialWebsite||"")}${editField("googleMaps","Google Maps",h.googleMaps||"")}</div>
+        </div>
+        <div class="form-section"><div class="form-section-title"><span>◫</span><b>Additional Details</b></div>
+          <div class="edit-grid">${editField("checkInTime","Check-in Time",h.checkInTime||h.checkIn||"")}${editField("checkOutTime","Check-out Time",h.checkOutTime||h.checkOut||"")}${editField("openingTime","Opening Time",h.openingTime||"")}${editField("closingTime","Closing Time",h.closingTime||"")}${editField("facilities","Amenities / Facilities",facilitiesOf(h).join("\\n"),"textarea",null,true)}${editField("dining","Dining / Restaurants",(h.dining||h.restaurants||[]).join("\\n"),"textarea",null,true)}</div>
+        </div>
+        <div class="save-row"><button type="submit" class="primary save-btn">✓ Save Changes</button><button type="button" class="secondary" id="resetEdit">Reset</button></div>
+        <div id="saveMessage" class="result"></div>
+      </section>
+    </div>`;
+
+  renderImagePreview($("editImagePreview"), img, "No image in JSON");
+  $("changeImageBtn").addEventListener("click",()=>{
+    const panel=$("imageLinkPanel");
+    panel.classList.toggle("open");
+    if(panel.classList.contains("open")) $("hotelImageUrl").focus();
+  });
+  $("hotelImageUrl").addEventListener("input",()=>renderImagePreview($("editImagePreview"),$("hotelImageUrl").value,"No image in JSON"));
+  $("resetEdit").addEventListener("click",openEditForm);
+  openModal($("editModal"));
+}
+function editField(k,label,value,type="input",options=null,full=false){
+  let control="";
+  if(type==="textarea") control=`<textarea data-field="${esc(k)}" rows="4">${esc(value)}</textarea>`;
+  else if(type==="select") control=`<select data-field="${esc(k)}">${(options||[]).map(o=>`<option ${clean(value)===o?"selected":""}>${esc(o)}</option>`).join("")}</select>`;
+  else control=`<input data-field="${esc(k)}" value="${esc(value)}" ${k.toLowerCase().includes("url")||["website","googleMaps"].includes(k)?'type="url"':''}>`;
+  return `<label class="edit-field ${full?"full":""}">${esc(label)}${control}</label>`;
+}
+async function saveHotelEdit(e){
+  e.preventDefault();
+  const updated={...currentHotel};
+  document.querySelectorAll("#hotelEditForm [data-field]").forEach(el=>{
+    const k=el.dataset.field;
+    if(k==="image") return;
+    updated[k]=el.tagName==="TEXTAREA"?el.value.split(/\r?\n/).map(clean).filter(Boolean):el.value.trim();
+  });
+  const imageInput=$("hotelImageUrl");
+  const image=safeUrl(imageInput?.value);
+  updated.image=image||null;
+  updated.images=image?[image]:[];
+  updated.gallery=image?[image]:[];
+  updated.hasImage=Boolean(image);
+  for(const k of ["hotelId","businessId","verificationId","hotelVerificationId","Hotel Verification ID","hotelEditId","Hotel Edit ID","hotelEditID","verificationID","editId","businessEditId","Hotel ID"]) if(currentHotel[k]!==undefined) updated[k]=currentHotel[k];
+
+  const msg=$("saveMessage");msg.textContent="Saving...";
+  try{
+    const r=await fetch("/api/admin/entity",{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({editId:verifiedEditId,entityType:"hotel",entityId:getHotelId(currentHotel),placeId:currentPlace?.id||currentPlace?.placeId||"",entity:updated})});
+    const j=await r.json().catch(()=>({}));
+    if(!r.ok||!j.success) throw new Error(j.message||"Server could not save the hotel.");
+    currentHotel=j.entity||updated;
+    const idx=hotels.findIndex(x=>getHotelId(x)===getHotelId(currentHotel)); if(idx>=0) hotels[idx]=currentHotel;
+    renderCards();renderDetails(currentHotel);
+    msg.className="result success";msg.textContent="✓ Hotel information saved successfully.";
+    setTimeout(()=>closeModal($("editModal")),900);
+  }catch(err){msg.className="result";msg.textContent=`Server save failed: ${err.message}. Your current UI data was not overwritten.`;}
+}
+function getHotelId(h){return clean(h.hotelId||h["Hotel ID"]||h.businessId||h.id);}
+function getVerificationId(h){return clean(h.verificationId||h.hotelVerificationId||h["Hotel Verification ID"]||h.hotelEditId||h["Hotel Edit ID"]||h.editId||h.businessEditId);}
+function openModal(m){m.classList.remove("hidden");m.setAttribute("aria-hidden","false");document.body.style.overflow="hidden";}
+function closeModal(m){if(!m)return;m.classList.add("hidden");m.setAttribute("aria-hidden","true");if(![...document.querySelectorAll(".modal")].some(x=>!x.classList.contains("hidden")))document.body.style.overflow="";}
+function toggleTheme(){document.body.classList.toggle("dark");localStorage.setItem("ktg_hotel_theme",document.body.classList.contains("dark")?"dark":"light");}
+if(localStorage.getItem("ktg_hotel_theme")==="dark")document.body.classList.add("dark");
+
+</script>
+</body>
+</html>

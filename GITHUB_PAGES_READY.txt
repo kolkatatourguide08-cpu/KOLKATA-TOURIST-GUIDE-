@@ -1,0 +1,36 @@
+KOLKATA TOURIST GUIDE — GITHUB PAGES READY
+
+IMPORTANT:
+This ZIP is arranged so that after extraction, the contents of this folder
+should be uploaded DIRECTLY to the ROOT of your GitHub repository.
+
+The GitHub repository root must contain:
+index.html
+css/
+js/
+data/
+hotel.html
+restaurant.html
+booking.html
+chat.html
+place.html
+map.html
+.nojekyll
+
+Do NOT create:
+KOLKATA-TOURIST-GUIDE/KOLKATA-TOURIST-GUIDE/...
+
+GitHub Pages is static hosting. The local Node/Express server and Socket.IO
+real-time chat backend need Node hosting (or local server) to function fully.
+
+LOCAL:
+npm install
+npm start
+http://localhost:3000
+
+GITHUB PAGES:
+Upload the ROOT CONTENTS of this extracted package to the repository root.
+Then GitHub -> Settings -> Pages -> Deploy from branch -> main -> / (root).
+
+If style.css/app.js show 404, it means css/ and js/ were not uploaded to the
+same repository root as index.html.

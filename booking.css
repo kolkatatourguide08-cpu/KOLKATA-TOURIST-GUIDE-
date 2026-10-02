@@ -1,0 +1,78 @@
+*{box-sizing:border-box}
+:root{--gold:#c58a14;--gold-dark:#9c6807;--gold-soft:#fff7e3;--ink:#191919;--muted:#777;--line:#e8e8e4;--bg:#fafaf8}
+html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(180deg,#fff,#f8f8f6);color:var(--ink);font-family:Inter,Arial,"Noto Sans Bengali",sans-serif}
+.booking-topbar{height:82px;background:rgba(255,255,255,.96);border-bottom:1px solid #ecece9;display:flex;align-items:center;justify-content:space-between;padding:0 7%;position:sticky;top:0;z-index:20;backdrop-filter:blur(12px)}
+.brand-wrap{display:flex;align-items:center;gap:12px}
+.brand-mark{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:#f5ecd8;color:var(--gold-dark);font-size:22px}
+.brand-name{font-weight:850;font-size:21px;line-height:1.1}
+.brand-sub{font-size:9px;letter-spacing:2px;color:var(--gold-dark);font-weight:800;margin-top:4px}
+.back-link{color:#333;text-decoration:none;font-weight:750;font-size:14px;padding:10px 14px;border-radius:10px;transition:.2s}
+.back-link:hover{background:#f4f4f1;transform:translateX(-2px)}
+.booking-shell{max-width:900px;margin:36px auto 80px;padding:0 18px}
+.booking-card{background:#fff;border:1px solid #e8e8e4;border-radius:20px;box-shadow:0 15px 55px rgba(0,0,0,.07);overflow:hidden}
+.booking-intro{padding:30px 34px 18px}
+.eyebrow{font-size:10px;font-weight:900;letter-spacing:2px;color:var(--gold-dark)}
+.booking-intro h1{margin:7px 0 5px;font-family:Georgia,serif;font-size:30px;letter-spacing:-.4px}
+.booking-intro p{margin:0;color:#777;font-size:13px}
+.booking-mode{display:block}
+.selected-box{margin:0 34px 4px;background:#fffdf7;border:1px solid #eadfca;border-radius:14px;padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:15px}
+.label{display:block;font-size:11px;color:#888;margin-bottom:4px}
+.selected-box strong{font-size:17px}
+.type-pill{font-size:10px;font-weight:900;letter-spacing:1px;background:#f2e7cc;color:var(--gold-dark);padding:8px 11px;border-radius:999px}
+.form-section{padding:26px 34px;border-top:1px solid var(--line)}
+.section-title{display:flex;gap:11px;align-items:center;margin-bottom:20px}
+.section-icon{width:35px;height:35px;border-radius:11px;background:var(--gold-soft);display:grid;place-items:center;font-size:17px;flex:none}
+.section-title h2{font-size:17px;margin:0;font-weight:850}
+.section-title p{font-size:11px;color:#8a8a8a;margin:3px 0 0}
+.section-title small{font-size:12px;color:#999;font-weight:500}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.form-grid label.full{grid-column:1/-1}
+label{display:block;font-size:12px;font-weight:750;color:#333}
+label>span{display:block;margin-bottom:8px}
+label b{color:#c33}
+label em{display:block;font-style:normal;color:#999;font-size:10px;font-weight:500;margin-top:6px}
+input,select,textarea{width:100%;border:1px solid #d9d9d5;background:#fff;border-radius:10px;min-height:46px;padding:12px 13px;font:inherit;font-size:13px;color:#242424;outline:none;transition:.2s}
+textarea{min-height:105px;resize:vertical;line-height:1.5}
+input::placeholder,textarea::placeholder{color:#aaa}
+input:focus,select:focus,textarea:focus{border-color:#c49325;box-shadow:0 0 0 4px rgba(196,147,37,.11)}
+.phone-row{display:grid;grid-template-columns:105px 1fr;gap:7px}
+.phone-row select{border-radius:10px}
+.contact-preview{margin:20px 34px 0;padding:13px 15px;border:1px dashed #dfcfaa;border-radius:12px;background:#fffcf5;display:flex;justify-content:space-between;gap:12px;font-size:11px;color:#777}
+.contact-preview strong{color:#65460a;font-size:12px}
+.terms{display:flex;align-items:flex-start;gap:9px;margin:0;padding:20px 34px 12px;font-size:12px;font-weight:650;color:#444}
+.terms input{width:18px;min-height:18px;height:18px;margin:0;accent-color:var(--gold);flex:none}
+.terms a{color:#9a6b0b}
+.message{min-height:20px;padding:4px 34px 9px;color:#b02a37;font-size:12px;font-weight:700}
+.confirm-btn{width:calc(100% - 68px);margin:0 34px 30px;border:0;border-radius:11px;min-height:52px;background:linear-gradient(90deg,#c68a12,#b97600);color:#fff;font-size:16px;font-weight:850;cursor:pointer;box-shadow:0 7px 20px rgba(166,112,0,.20);display:flex;align-items:center;justify-content:center;gap:14px;transition:.2s}
+.confirm-btn:hover{filter:brightness(1.04);transform:translateY(-1px)}
+.confirm-btn:disabled{opacity:.7;cursor:wait;transform:none}
+.arrow{font-size:22px}
+.hidden{display:none!important}
+.spinner{width:16px;height:16px;border:2px solid rgba(255,255,255,.5);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite}
+.success-panel{text-align:center;padding:58px 24px}
+.success-icon{width:62px;height:62px;border-radius:50%;display:grid;place-items:center;margin:auto;background:#eaf7ed;color:#258844;font-size:32px}
+.success-panel h2{margin:16px 0 6px;font-family:Georgia,serif}
+.success-panel p{color:#777;font-size:13px}
+.booking-id-box{display:inline-flex;gap:10px;align-items:center;background:#faf8f1;border:1px solid #eadfbd;border-radius:10px;padding:12px 16px;margin:12px 0 22px}
+.booking-id-box span{color:#777;font-size:11px}
+.secondary-btn{border:1px solid #d7d7d2;background:#fff;border-radius:9px;padding:11px 16px;font-weight:750;cursor:pointer}
+body.restaurant-mode .booking-card{border-radius:20px}
+body.restaurant-mode .booking-intro h1{font-size:29px}
+body.restaurant-mode .confirm-btn{background:linear-gradient(90deg,#c88a11,#b97800)}
+body.hotel-mode .confirm-btn{background:linear-gradient(90deg,#bd850e,#a97000)}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:700px){
+  .booking-topbar{height:70px;padding:0 15px}
+  .brand-name{font-size:17px}.brand-sub{font-size:7px;letter-spacing:1.5px}
+  .back-link{font-size:0;padding:9px}.back-link:first-letter{font-size:18px}
+  .booking-shell{margin:15px auto 45px;padding:0 9px}
+  .booking-card{border-radius:16px}
+  .booking-intro{padding:23px 19px 14px}.booking-intro h1{font-size:25px}
+  .selected-box{margin:0 19px 4px}
+  .form-section{padding:22px 19px}.form-grid{grid-template-columns:1fr}.form-grid label.full{grid-column:auto}
+  .phone-row{grid-template-columns:96px 1fr}
+  .contact-preview{margin:18px 19px 0;flex-direction:column}
+  .terms{padding:18px 19px 10px}.message{padding:4px 19px 9px}
+  .confirm-btn{width:calc(100% - 38px);margin:0 19px 24px}
+}

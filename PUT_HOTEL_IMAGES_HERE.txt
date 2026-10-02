@@ -1,0 +1,1 @@
+Put the corresponding JPG/PNG booking image here and set its filename in places.json.

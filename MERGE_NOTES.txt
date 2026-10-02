@@ -1,0 +1,10 @@
+KTG merged build
+
+Source A: hotel/restaurant/booking build.
+Source B: WhatsApp-style group chat + live location build.
+
+Merged choices:
+- Restaurant HTML/CSS/JS: Source A (preserves the beautiful restaurant UI and working booking flow).
+- Booking HTML/CSS/JS: Source A.
+- Chat HTML/CSS/JS: Source B (preserves the newer WhatsApp-style chat/live-location interface).
+- server.js: Source A business/booking APIs + Source B Socket.IO group chat/live-location handlers.
