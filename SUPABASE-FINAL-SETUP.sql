@@ -55,6 +55,32 @@ begin
 exception when duplicate_object then null;
 end $$;
 
+-- IMPORTANT REPAIR:
+-- Remove any older/overloaded ktg_update_entity functions before creating
+-- the correct 4-argument JSONB RPC. This prevents the PostgreSQL
+-- "cannot pass more than 100 arguments to a function" error.
+do $$
+declare
+  r record;
+begin
+  for r in
+    select n.nspname as schema_name,
+           p.proname as function_name,
+           pg_get_function_identity_arguments(p.oid) as identity_args
+    from pg_proc p
+    join pg_namespace n on n.oid = p.pronamespace
+    where n.nspname = 'public'
+      and p.proname = 'ktg_update_entity'
+  loop
+    execute format(
+      'drop function if exists %I.%I(%s)',
+      r.schema_name,
+      r.function_name,
+      r.identity_args
+    );
+  end loop;
+end $$;
+
 -- Verification RPC.
 create or replace function public.ktg_verify_entity(
   p_entity_type text,

@@ -45,3 +45,18 @@ in the server environment.
 ## Important data-flow fix
 
 Restaurant/Place pages now read the latest saved split JSON data through the live server API. The compatibility `/places.json` endpoint is generated from the current split files, so an Edit -> Save (for example Rating 4.6 -> 4.5) is reflected on the public restaurant page after refresh. On GitHub Pages, the static compatibility layer uses browser localStorage because GitHub Pages cannot write repository files from client-side JavaScript.
+
+
+## Fix for: "cannot pass more than 100 arguments to a function"
+
+The current GitHub Pages bridge already calls `ktg_update_entity` with exactly four
+arguments: `p_entity_type`, `p_entity_id`, `p_edit_id`, and `p_data` (JSONB).
+If Supabase still reports the 100-argument error, an older overloaded
+`ktg_update_entity` function is still present in the database.
+
+Run `SUPABASE-FINAL-SETUP.sql` again from the beginning. The repaired SQL first
+drops every existing `public.ktg_update_entity` overload and then recreates the
+correct four-argument JSONB function.
+
+Do not add a large list of individual function arguments and do not put a
+Supabase secret/service-role key in the website.
