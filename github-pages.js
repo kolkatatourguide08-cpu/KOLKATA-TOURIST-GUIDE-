@@ -1,3 +1,4 @@
+/* KTG FINAL SUPABASE BRIDGE v2026-10-04 */
 
 /* KTG Supabase client + GitHub Pages data bridge */
 (function(){
