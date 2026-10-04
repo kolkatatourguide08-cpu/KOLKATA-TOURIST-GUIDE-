@@ -388,7 +388,7 @@ async function saveHotelEdit(e){
 
   const msg=$("saveMessage");msg.textContent="Saving...";
   try{
-    const r=await fetch("/api/admin/entity",{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({editId:verifiedEditId,entityType:"hotel",entityId:getHotelId(currentHotel),placeId:currentPlace?.id||currentPlace?.placeId||"",entity:updated})});
+    const r=await fetch("/api/admin/entity",{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({editId:verifiedEditId,entityType:"hotel",entityId:getHotelId(currentHotel),placeId:currentPlace?.id||currentPlace?.placeId||"",data:updated})});
     const j=await r.json().catch(()=>({}));
     if(!r.ok||!j.success) throw new Error(j.message||"Server could not save the hotel.");
     currentHotel=j.entity||updated;

@@ -196,7 +196,7 @@
       p_entity_type:String(body.entityType||''),
       p_entity_id:String(body.entityId||''),
       p_edit_id:String(body.editId||''),
-      p_data:body.data||{}
+      p_data:body.data||body.entity||{}
     });
     if(error) throw error;
     if(!data?.success) return data;
